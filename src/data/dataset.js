@@ -1,378 +1,392 @@
 export default [
+  //1.
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
-    }
+    "id": "megachasma_pelagios",
+    "nombre_del_tiburon": "Tiburón Megamouth",
+    "nombre_de_la_especie": "Megachasma pelagios",
+    "imagen": "https://example.com/megachasma_pelagios.jpg",
+    "descripcion_corta": "Raro tiburón de aguas profundas.",
+    "descripcion_larga": "Descubierto en 1976, el tiburón Megamouth es una especie poco común con solo unos pocos avistamientos. Posee una mandíbula peculiar que se abre ampliamente para alimentarse de plancton y pequeños peces. Vive en aguas profundas y su hábitat se extiende por todo el mundo, aunque se desconoce su población exacta. A pesar de su tamaño, es difícil de rastrear debido a su hábitat inaccesible y su comportamiento nocturno. Sin embargo, su papel en el ecosistema marino es crucial para mantener el equilibrio.",
+    "datos": {
+      "longevidad": "Alrededor de 100 años",
+      "ubicacion_de_la_especie": "Aguas profundas en todo el mundo",
+      "comportamiento": "Mayormente solitario, se alimenta principalmente por la noche"
+    },
+    "alimentacion": "Plancton, pequeños peces",
+    "tamaño": "Entre 4.5 y 6 metros"
   },
+  //2.
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-    "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
-    }
+    "id": "rhincodon_typus",
+    "nombre_del_tiburon": "Tiburón Ballena",
+    "nombre_de_la_especie": "Rhincodon typus",
+    "imagen": "https://example.com/rhincodon_typus.jpg",
+    "descripcion_corta": "El pez más grande del océano.",
+    "descripcion_larga": "El tiburón ballena es una especie asombrosa, siendo el pez más grande del océano. Con un tamaño que puede superar los 12 metros, es una especie inofensiva que se alimenta principalmente de plancton. Se le encuentra en aguas tropicales y subtropicales alrededor del mundo. A menudo es avistado en áreas de alimentación cerca de la superficie del océano, donde se alimenta de forma pacífica. Su presencia indica la salud del ecosistema marino y su conservación es fundamental para mantener la biodiversidad.",
+    "datos": {
+      "longevidad": "Alrededor de 70 años",
+      "ubicacion_de_la_especie": "Aguas tropicales y subtropicales",
+      "comportamiento": "Generalmente solitario, se alimenta filtrando grandes cantidades de agua"
+    },
+    "alimentacion": "Plancton",
+    "tamaño": "Entre 9 y 14 metros"
   },
+  //3.
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
-    }
+    "id": "alopias_vulpinus",
+    "nombre_del_tiburon": "Tiburón Zorro",
+    "nombre_de_la_especie": "Alopias vulpinus",
+    "imagen": "https://example.com/alopias_vulpinus.jpg",
+    "descripcion_corta": "Con una cola alargada en forma de látigo.",
+    "descripcion_larga": "El tiburón zorro es conocido por su cola alargada en forma de látigo, que utiliza para golpear a sus presas. Es una especie migratoria que se puede encontrar en aguas templadas y tropicales en todo el mundo. A menudo se le observa saltando fuera del agua. Su apariencia es única y su comportamiento juguetón lo convierten en un favorito entre los buceadores y observadores de tiburones. Sin embargo, la pesca indiscriminada amenaza su supervivencia y la de otros depredadores marinos.",
+    "datos": {
+      "longevidad": "Alrededor de 24 años",
+      "ubicacion_de_la_especie": "Aguas templadas y tropicales",
+      "comportamiento": "Activo tanto de día como de noche, a menudo se le observa saltando fuera del agua"
+    },
+    "alimentacion": "Peces óseos, calamares",
+    "tamaño": "Entre 2 y 3.5 metros"
   },
+  //4.
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
-    }
+    "id": "sphyrna_lewini",
+    "nombre_del_tiburon": "Tiburón Martillo",
+    "nombre_de_la_especie": "Sphyrna lewini",
+    "imagen": "https://example.com/sphyrna_lewini.jpg",
+    "descripcion_corta": "Con su distintiva cabeza en forma de martillo.",
+    "descripcion_larga": " El tiburón martillo es una especie fácilmente reconocible por su cabeza en forma de martillo, la cual tiene varias funciones, incluida una mayor sensibilidad electromagnética y un mejor campo visual. Se les puede encontrar en aguas tropicales y subtropicales, y son conocidos por sus migraciones estacionales. A pesar de su aspecto intimidante, rara vez representa una amenaza para los humanos, ya que es más probable que huya cuando se encuentra con buceadores. Su conservación es vital para mantener la biodiversidad marina.",
+    "datos": {
+      "longevidad": "Alrededor de 20 años",
+      "ubicacion_de_la_especie": "Aguas tropicales y subtropicales",
+      "comportamiento": "Socialmente activo, a menudo se les ve en grupos pequeños"
+    },
+    "alimentacion": "Peces pequeños, calamares, crustáceos",
+    "tamaño": "Entre 2 y 4 metros"
   },
+  //5.
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
+    "id": "chlamydoselachus_anguineus",
+    "nombre_del_tiburon": "Quimera",
+    "nombre_de_la_especie": "Chlamydoselachus anguineus",
+    "imagen": "https://example.com/chlamydoselachus_anguineus.jpg",
+    "descripcion_corta": "Una especie primitiva de tiburón.",
+    "descripcion_larga": "La quimera, también conocida como tiburón duende, es una especie primitiva de tiburón con características únicas, como aletas pectorales que parecen alas. Habita en profundidades extremas, hasta 2,500 metros bajo la superficie. Se alimenta principalmente de peces y invertebrados. Aunque raramente se encuentra en pesquerías comerciales, su captura incidental representa una amenaza para su población y se le considera vulnerable según la Lista Roja de la UICN. La protección de su hábitat es esencial para su supervivencia a largo plazo.",
+    "datos": {
+      "longevidad": "Alrededor de 28 años",
+      "ubicacion_de_la_especie": "Profundidades extremas en todo el mundo",
+      "comportamiento": "Poco conocido debido a su hábitat inaccesible, se cree que es solitario"
+    },
+    "alimentacion": "Peces, cangrejos, moluscos",
+    "tamaño": "Alrededor de 1.5 metros"
   },
+  //6.
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
+    "id": "lamna_nasus",
+    "nombre_comun": "Tiburón porbeagle",
+    "nombre_especie": "Lamna nasus",
+    "imagen": "https://example.com/lamna_nasus.jpg",
+    "descripcion_corta": "Tiburón de aguas frías con aletas distintivas y comportamiento migratorio.",
+    "descripcion_larga": "El tiburón porbeagle es conocido por su migración estacional, donde viaja grandes distancias para alimentarse y reproducirse. Este tiburón es vital para el ecosistema marino, regulando las poblaciones de peces. Son depredadores efectivos y su presencia indica la salud del océano. Además, son capturados por la pesca comercial y deportiva, lo que ha llevado a preocupaciones sobre su conservación. Se han implementado medidas de manejo para proteger su población, pero la pesca accidental sigue siendo una amenaza. La investigación continua es crucial para garantizar su supervivencia.",
+    "datos": {
+      "longevidad": "30-40 años",
+      "ubicacion_especie": "Océanos Atlántico y Pacífico",
+      "comportamiento": "Migratorio, cazador solitario o en pequeños grupos."
+    },
+    "alimentacion": "Carnívoro. Se alimenta principalmente de peces pequeños, calamares y crustáceos.",
+    "tamaño": "3-3.5 metros"
   },
+  //7.
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
-    }
+    "id": "prionace_glauca",
+    "nombre_comun": "Tiburón azul",
+    "nombre_especie": "Prionace glauca",
+    "imagen": "https://example.com/prionace_glauca.jpg",
+    "descripcion_corta": "Tiburón rápido y ágil, reconocido por su coloración azul metálico.",
+    "descripcion_larga": "El tiburón azul es uno de los depredadores más rápidos del océano, capaz de alcanzar velocidades de hasta 40 mph. Realiza migraciones impresionantes a lo largo de vastas distancias, lo que lo hace un componente vital del ecosistema marino global. Aunque generalmente solitario, puede formar grupos temporales para alimentarse. Esta especie enfrenta numerosas amenazas, incluida la sobrepesca y la degradación del hábitat. La conservación del tiburón azul es crucial para mantener el equilibrio de los océanos y la biodiversidad marina.",
+    "datos": {
+      "longevidad": "20-30 años",
+      "ubicacion_especie": "Océanos en todo el mundo",
+      "comportamiento": "Migratorio, depredador solitario."
+    },
+    "alimentacion": "Carnívoro. Se alimenta de peces, calamares, crustáceos y ocasionalmente carroña.",
+    "tamaño": "2.2-3.8 metros"
   },
+  //8.
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
+    "id": "carcharhinus_falciformis",
+    "nombre_comun": "Tiburón sedoso",
+    "nombre_especie": "Carcharhinus falciformis",
+    "imagen": "https://example.com/carcharhinus_falciformis.jpg",
+    "descripcion_corta": "Tiburón ágil y curioso, con piel lisa y brillante.",
+    "descripcion_larga": "El tiburón sedoso, a menudo encontrado en aguas tropicales y subtropicales, es conocido por su piel suave y brillante. A pesar de su apariencia inofensiva, es un depredador poderoso que se encuentra en la cima de la cadena alimentaria marina. Su curiosidad natural lo lleva a investigar objetos desconocidos en su entorno, contribuyendo así a la comprensión de su hábitat y comportamiento. Además de ser cazado por su carne y aletas, también enfrenta amenazas debido a la pesca incidental y la degradación del hábitat.",
+    "datos": {
+      "longevidad": "20-25 años",
+      "ubicacion_especie": "Aguas tropicales y subtropicales en todo el mundo",
+      "comportamiento": "Activo durante el día, cazador solitario o en grupos pequeños."
+    },
+    "alimentacion": "Carnívoro. Se alimenta de peces, cefalópodos, crustáceos y ocasionalmente tortugas marinas.",
+    "tamaño": "1.5-2.5 metros"
   },
+  //9.
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
+    "id": "sphyrna_tiburo",
+    "nombre_comun": "Tiburón martillo común",
+    "nombre_especie": "Sphyrna tiburo",
+    "imagen": "https://example.com/sphyrna_tiburo.jpg",
+    "descripcion_corta": "Tiburón con una cabeza distintiva en forma de martillo.",
+    "descripcion_larga": "El tiburón martillo común se destaca por su cabeza única en forma de martillo, que le proporciona una mayor área sensorial para detectar presas. Son nadadores ágiles y se encuentran comúnmente en aguas costeras poco profundas. Se cree que la forma de su cabeza juega un papel en la mejora de la visión y la capacidad de detección de presas, lo que les da una ventaja evolutiva en la caza. Su distribución global y su papel como depredador tope lo convierten en una especie clave para la salud de los ecosistemas marinos.",
+    "datos": {
+      "longevidad": "20-30 años",
+      "ubicacion_especie": "Costas tropicales y subtropicales en todo el mundo",
+      "comportamiento": "Social, a menudo se agrupa en cardúmenes."
+    },
+    "alimentacion": "Carnívoro. Se alimenta principalmente de peces, pulpos, cangrejos y rayas.",
+    "tamaño": "1.2-3 metros"
   },
+  //10.
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
+    "id": "triakis_semifasciata",
+    "nombre_comun": "Tiburón leopardo",
+    "nombre_especie": "Triakis semifasciata",
+    "imagen": "https://example.com/triakis_semifasciata.jpg",
+    "descripcion_corta": "Tiburón con manchas oscuras en un fondo claro, parecido al pelaje de un leopardo.",
+    "descripcion_larga": "El tiburón leopardo, con su distintivo patrón de manchas, es una especie común en aguas costeras poco profundas. A menudo se encuentra descansando en el fondo marino durante el día y se vuelve más activo durante la noche para cazar. Es un depredador oportunista que se alimenta de una variedad de presas, desde peces pequeños hasta cangrejos y calamares. Su adaptabilidad le permite sobrevivir en diversos entornos marinos, lo que lo convierte en una especie exitosa y resistente. A pesar de su relativa abundancia, la presión humana sigue siendo una amenaza para su conservación.",
+    "datos": {
+      "longevidad": "25-30 años",
+      "ubicacion_especie": "Costas templadas y tropicales en todo el mundo",
+      "comportamiento": "Nocturno, descansa en el fondo durante el día."
+    },
+    "alimentacion": "Carnívoro. Se alimenta de peces óseos, cefalópodos, crustáceos y a veces carroña.",
+    "tamaño": "1.2-1.8 metros"
   },
+  //11.
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
+  "id": "isistius_brasiliensis",
+  "nombre_del_tiburon": "Tiburón linterna",
+  "nombre_de_la_especie": "Isistius brasiliensis",
+  "imagen": "https://example.com/isistius_brasiliensis.jpg",
+  "descripcion_corta": "Pequeño tiburón bioluminiscente de aguas profundas.",
+  "descripcion_larga": "El tiburón linterna (Isistius brasiliensis) es una especie fascinante que habita en las profundidades abisales de los océanos. Dotado de órganos fotóforos, emite una luz tenue que le sirve para atraer a sus presas en la oscuridad. Su mandíbula prominente alberga filas de pequeños dientes afilados, facilitando la captura de peces y calamares. A pesar de su diminuto tamaño, desempeña un papel crucial en el equilibrio ecológico de su hábitat. Este tiburón nocturno, solitario por naturaleza, representa un enigma biológico para los científicos marinos, quienes continúan estudiando su comportamiento y adaptaciones únicas.",
+  "datos": {
+    "Longevidad": "Hasta 25 años",
+    "Ubicación_de_la_especie": "Aguas profundas tropicales y subtropicales en todo el mundo.",
+    "Comportamiento": "Solitario, caza principalmente durante la noche."
   },
-  {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
+  "alimentacion": "Se alimenta principalmente de peces de aguas profundas y calamares.",
+  "tamaño": "Alcanza hasta 50 cm de longitud."
   },
+  //12.
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
+  "id": "etmopterus_spinax",
+  "nombre_del_tiburon": "Tiburón linterna negro",
+  "nombre_de_la_especie": "Etmopterus spinax",
+  "imagen": "https://example.com/etmopterus_spinax.jpg",
+  "descripcion_corta": "Tiburón pequeño de aguas profundas con bioluminiscencia en su piel.",
+  "descripcion_larga": "El tiburón linterna negro (Etmopterus spinax) es una criatura asombrosa de las profundidades marinas. Su piel oscura, punteada con puntos luminosos, le otorga un aspecto misterioso. Este depredador nocturno se aventura en las frías aguas del Atlántico, cazando pequeños peces y crustáceos con astucia. A pesar de su tamaño modesto, su longevidad sorprende a los científicos, pudiendo alcanzar hasta medio siglo de vida. Adaptado a la vida en las tinieblas del abismo, el tiburón linterna negro es un testimonio de la diversidad y la maravilla de los océanos.",
+  "datos": {
+    "Longevidad": "Alrededor de 50 años",
+    "Ubicación_de_la_especie": "Océano Atlántico, desde Noruega hasta Sudáfrica.",
+    "Comportamiento": "Nocturno, se alimenta de pequeños peces y crustáceos."
   },
-  {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
+  "alimentacion": "Se alimenta principalmente de peces, calamares y crustáceos.",
+  "tamaño": "Alcanza hasta 60 cm de longitud."
   },
-  {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
-    }
+  //13. 
+   {
+  "id": "heterodontus_francisci",
+  "nombre_del_tiburon": "Tiburón duende",
+  "nombre_de_la_especie": "Heterodontus francisci",
+  "imagen": "https://example.com/heterodontus_francisci.jpg",
+  "descripcion_corta": "Tiburón de apariencia única con un hocico alargado.",
+  "descripcion_larga": "El tiburón duende (Heterodontus francisci) es una joya de los arrecifes de coral del Pacífico. Reconocido por su inconfundible hocico largo y sus aletas puntiagudas, este tiburón es un maestro de la caza entre las grietas rocosas. A pesar de su apariencia intimidante, su dieta es relativamente inofensiva, compuesta principalmente por crustáceos y moluscos. Su longevidad, de hasta un cuarto de siglo, permite que esta especie sea un componente vital de los delicados ecosistemas coralinos. El tiburón duende, una maravilla de la naturaleza, continúa fascinando a científicos y aficionados por igual.",
+  "datos": {
+    "Longevidad": "Hasta 25 años",
+    "Ubicación_de_la_especie": "Costas del Pacífico este y oeste, desde California hasta México.",
+    "Comportamiento": "Mayormente solitario, activo durante la noche."
   },
-  {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
+  "alimentacion": "Se alimenta principalmente de crustáceos, moluscos y pequeños peces.",
+  "tamaño": "Alcanza hasta 1 metro de longitud."
   },
+  //14.
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
+  "id": "sphyrna_mokarran",
+  "nombre_del_tiburon": "Tiburón martillo gigante",
+  "nombre_de_la_especie": "Sphyrna mokarran",
+  "imagen": "https://example.com/sphyrna_mokarran.jpg",
+  "descripcion_corta": "Impresionante tiburón con cabeza en forma de martillo.",
+  "descripcion_larga": "El tiburón martillo gigante (Sphyrna mokarran) es una maravilla evolutiva de los océanos tropicales y subtropicales. Su cabeza única, en forma de martillo, no solo le proporciona una visión panorámica excepcional, sino que también mejora su capacidad de detección de presas. Este depredador ágil y social forma grupos migratorios que recorren vastas distancias en busca de alimento. Su dieta variada incluye peces óseos, rayas y calamares. A pesar de su estatus de superdepredador, el tiburón martillo gigante enfrenta amenazas como la pesca indiscriminada y la degradación del hábitat.",
+  "datos": {
+    "Longevidad": "Alrededor de 20-30 años",
+    "Ubicación_de_la_especie": "Océanos tropicales y subtropicales en todo el mundo.",
+    "Comportamiento": "Nómada, viaja largas distancias en busca de alimento y compañeros."
   },
-  {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
+  "alimentacion": "Se alimenta principalmente de peces óseos, rayas y calamares.",
+  "tamaño": "Alcanza hasta 6 metros de longitud."
   },
+  //15.
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
+  "id": "carcharhinus_leucas",
+  "nombre_del_tiburon": "Tiburón toro",
+  "nombre_de_la_especie": "Carcharhinus leucas",
+  "imagen": "https://example.com/carcharhinus_leucas.jpg",
+  "descripcion_corta": "Tiburón robusto conocido por su agresividad y adaptabilidad.",
+  "descripcion_larga": "El tiburón toro (Carcharhinus leucas) es un formidable depredador que prospera en una amplia gama de hábitats, desde aguas costeras hasta ríos de agua dulce. Con su cuerpo robusto y su reputación de agresividad, el tiburón toro es un cazador eficiente que se alimenta de una variedad de presas, incluidos peces, crustáceos y mamíferos marinos. Su capacidad para sobrevivir en aguas dulces lo hace único entre los tiburones. A pesar de ser temido por los bañistas y pescadores, el tiburón toro desempeña un papel vital en el equilibrio ecológico de los ecosistemas acuáticos que habita.",
+  "datos": {
+    "Longevidad": "Alrededor de 30 años",
+    "Ubicación_de_la_especie": "Costas tropicales y subtropicales en todo el mundo, así como ríos y lagos de agua dulce.",
+    "Comportamiento": "Agresivo cuando se siente amenazado, se alimenta principalmente por la noche."
   },
-  {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
+  "alimentacion": "Se alimenta principalmente de peces, crustáceos, tortugas marinas y aves marinas.",
+  "tamaño": "Alcanza hasta 3.5 metros de longitud."
   },
+  //16.
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
+    "id": "sphyrna_tudes",
+    "Nombre del tiburón": "Tiburón martillo común",
+    "Nombre de la especie": "Sphyrna tudes",
+    "Imagen": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4269",
+    "descripción corta": "Tiburón con cabeza en forma de martillo, ampliamente distribuido en aguas tropicales y templadas.",
+    "Descripción larga": "El tiburón martillo común, Sphyrna tudes, es conocido por su distintiva cabeza en forma de martillo, que le brinda ventajas sensoriales. Su esperanza de vida puede superar los 30 años. Habita en áreas costeras y en alta mar, donde forma grupos sociales. Son depredadores oportunistas que se alimentan principalmente de peces óseos y calamares. Los tiburones martillo común pueden llegar a medir hasta 4 metros de longitud. Su población está amenazada por la pesca excesiva y la degradación del hábitat.",
+    "datos": {
+      "Longevidad": "Más de 30 años",
+      "Ubicación de la especie": "Aguas tropicales y templadas alrededor del mundo",
+      "Comportamiento": "Forman grupos sociales, son depredadores oportunistas"
+    },
+    "Alimentación": "Principalmente peces óseos y calamares.",
+    "Tamaño": "Hasta 4 metros de longitud"
   },
+  //17.
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
+    "id": "euprotomicroides_zantedeschia",
+    "Nombre del tiburón": "Tiburón linterna del Pacífico",
+    "Nombre de la especie": "Euprotomicroides zantedeschia",
+    "Imagen": "https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/35/2017/05/Triakis_longimana1.jpg",
+    "descripción corta": "Tiburón de aguas profundas con órganos bioluminiscentes, se encuentra en el Pacífico.",
+    "Descripción larga": "El tiburón linterna del Pacífico, Euprotomicroides zantedeschia, es un tiburón poco común que habita en las profundidades del océano Pacífico. Posee órganos bioluminiscentes en el abdomen, los cuales utiliza para atraer presas en las oscuras profundidades marinas. Su esperanza de vida puede superar los 25 años. Se alimenta de peces, crustáceos y cefalópodos. Aunque no se sabe mucho sobre su comportamiento social, se cree que son solitarios. La población de este tiburón se ve amenazada por la pesca incidental y la degradación de su hábitat.",
+    "datos": {
+      "Longevidad": "Más de 25 años",
+      "Ubicación de la especie": "Aguas profundas del océano Pacífico",
+      "Comportamiento": "Se cree que son solitarios"
+    },
+    "Alimentación": "Peces, crustáceos y cefalópodos.",
+    "Tamaño": "Alrededor de 1.5 metros de longitud"
   },
+  //18.
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
+    "id": "rhizoprionodon_terraenovae",
+    "Nombre del tiburón": "Tiburón de arrecife de arena",
+    "Nombre de la especie": "Rhizoprionodon terraenovae",
+    "Imagen": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4244",
+    "descripción corta": "Pequeño tiburón costero que se encuentra en arrecifes y fondos arenosos.",
+    "Descripción larga": "El tiburón de arrecife de arena, Rhizoprionodon terraenovae, es un pequeño tiburón costero que se encuentra en arrecifes y fondos arenosos en aguas tropicales y subtropicales. Su esperanza de vida puede alcanzar los 15 años. Son animales territoriales y pueden ser agresivos en defensa de su espacio. Se alimentan principalmente de peces pequeños, crustáceos y cefalópodos. Este tiburón es importante para el equilibrio de los ecosistemas marinos. Sin embargo, su población se ve amenazada por la pesca excesiva y la degradación del hábitat costero.",
+    "datos": {
+      "Longevidad": "Hasta 15 años",
+      "Ubicación de la especie": "Arrecifes y fondos arenosos en aguas tropicales y subtropicales",
+      "Comportamiento": "Animales territoriales y pueden ser agresivos en defensa de su espacio"
+    },
+    "Alimentación": "Peces pequeños, crustáceos y cefalópodos.",
+    "Tamaño": "Alrededor de 1 metro de longitud"
   },
+  //19.
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
-    }
+    "id": "carcharodon_carcharias",
+    "Nombre del tiburón": "Gran tiburón blanco",
+    "Nombre de la especie": "Carcharodon carcharias",
+    "Imagen": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4243",
+    "descripción corta": "Tiburón depredador de gran tamaño, conocido por su coloración blanca y ataques a mamíferos marinos.",
+    "Descripción larga": "El gran tiburón blanco, es uno de los depredadores marinos más grandes y temidos. Puede alcanzar una longitud de más de 6 metros y vivir más de 70 años. Habita en aguas templadas alrededor del mundo y es conocido por sus ataques a mamíferos marinos, como focas y leones marinos. Su comportamiento de caza es meticuloso y estratégico. Aunque su imagen a menudo se ve asociada con ataques a humanos, estos son raros y generalmente son casos de identificación errónea. Sin embargo, la sobreexplotación y la caza furtiva han llevado a una disminución en su población.",
+    "datos": {
+      "Longevidad": "Más de 70 años",
+      "Ubicación de la especie": "Aguas templadas alrededor del mundo",
+      "Comportamiento": "Caza meticulosa y estratégica"
+    },
+    "Alimentación": "Peces, focas y otros tiburones.",
+    "Tamaño": "Más de 6 metros de longitud"
+  },
+  //20.
+  {
+    "id": "sphyrna_spp",
+    "Nombre del tiburón": "Tiburón martillo",
+    "Nombre de la especie": "Género Sphyrna",
+    "Imagen": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4257",
+    "descripción corta": "Familia de tiburones con una cabeza distintiva en forma de martillo.",
+    "Descripción larga": "Los tiburones martillo, del género Sphyrna, son conocidos por sus cabezas en forma de martillo, que les brindan ventajas sensoriales únicas. Esta forma especializada les permite detectar presas y moverse con eficiencia en su entorno acuático. Se encuentran en diferentes hábitats alrededor del mundo, desde aguas tropicales hasta templadas. Son depredadores versátiles que se alimentan de una variedad de presas, incluidos peces óseos, calamares y crustáceos. Algunas especies de este género forman grupos sociales, mientras que otras son más solitarias. Sin embargo, todas enfrentan amenazas debido a la pesca excesiva y la pérdida de hábitat.",
+    "datos": {
+      "Longevidad": "Varía según la especie, hasta 30 años",
+      "Ubicación de la especie": "Diversos hábitats, desde tropicales hasta templados",
+      "Comportamiento": "Varía según la especie, algunas forman grupos sociales"
+    },
+    "Alimentación": "Peces óseos, calamares y crustáceos.",
+    "Tamaño": "Varía según la especie, desde 1.5 hasta 6 metros de longitud"
+  },
+  //21.
+  {
+    "id": "isurus_oxyrinchus",
+    "Nombre del tiburón": "Tiburón mako",
+    "Nombre de la especie": "Isurus oxyrinchus",
+    "Imagen": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4255",
+    "descripción corta": "Tiburón rápido y ágil, conocido por su velocidad en el agua.",
+    "Descripción larga": "El tiburón mako, Isurus oxyrinchus, es una especie de tiburón altamente migratoria, conocida por su velocidad y agilidad en el agua. Puede alcanzar velocidades de hasta 60 kilómetros por hora. Habita en aguas tropicales y templadas en todo el mundo, preferentemente en la plataforma continental y en alta mar. Su dieta se compone principalmente de peces, calamares y otros tiburones. Son depredadores eficientes que cazan con precisión. Aunque no son agresivos hacia los humanos, pueden representar un peligro para los pescadores debido a su fuerza y velocidad.",
+    "datos": {
+      "Longevidad": "Hasta 32 años",
+      "Ubicación de la especie": "Aguas tropicales y templadas alrededor del mundo",
+      "Comportamiento": "Altamente migratorio y ágil en el agua"
+    },
+    "Alimentación": "Peces, calamares y otros tiburones.",
+    "Tamaño": "Alrededor de 3 metros de longitud"
+  },
+  //22.
+  
+  {
+    "id": "alopias_pelagicus",
+    "Nombre del tiburón": "Tiburón zorro",
+    "Nombre de la especie": "Alopias pelagicus",
+    "Imagen": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4260",
+    "descripción corta": "Tiburón de aspecto distintivo con una larga cola similar a la de un zorro.",
+    "Descripción larga": "El tiburón zorro, Alopias pelagicus, es reconocido por su distintiva cola larga y delgada, que puede representar hasta la mitad de su longitud total. Habita en aguas tropicales y templadas de océanos abiertos en todo el mundo. Es una especie migratoria que sigue las corrientes oceánicas en busca de alimento. Se alimenta principalmente de peces pequeños, calamares y crustáceos. Aunque su apariencia puede ser imponente, el tiburón zorro rara vez representa una amenaza para los humanos. Sin embargo, su población enfrenta presiones debido a la pesca incidental y la degradación del hábitat.",
+    "datos": {
+      "Longevidad": "Hasta 24 años",
+      "Ubicación de la especie": "Aguas tropicales y templadas de océanos abiertos",
+      "Comportamiento": "Migratorio siguiendo corrientes oceánicas"
+    },
+    "Alimentación": "Peces pequeños, calamares y crustáceos.",
+    "Tamaño": "Alrededor de 3 metros de longitud"
+  },
+  //23.
+  
+  {
+    "id": "chiloscyllium_punctatum",
+    "Nombre del tiburón": "Tiburón bambú",
+    "Nombre de la especie": "Chiloscyllium punctatum",
+    "Imagen": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4263",
+    "descripción corta": "Tiburón de aspecto peculiar, con patrones de manchas y hábitos nocturnos.",
+    "Descripción larga": "El tiburón bambú, Chiloscyllium punctatum, es un tiburón pequeño y de aspecto peculiar, con un cuerpo alargado y patrones de manchas únicos. Se encuentra en aguas tropicales poco profundas del océano Indo-Pacífico. Es un tiburón nocturno que se esconde entre los arrecifes de coral y los lechos marinos durante el día, y se aventura a cazar por la noche. Se alimenta principalmente de crustáceos, peces pequeños y moluscos. Aunque su tamaño y comportamiento generalmente lo mantienen fuera del alcance humano, es capturado accidentalmente en la pesca comercial y la acuicultura.",
+    "datos": {
+      "Longevidad": "Hasta 25 años",
+      "Ubicación de la especie": "Aguas tropicales poco profundas del océano Indo-Pacífico",
+      "Comportamiento": "Nocturno, se esconde durante el día"
+    },
+    "Alimentación": "Crustáceos, peces pequeños y moluscos.",
+    "Tamaño": "Alrededor de 1 metro de longitud"
+  },
+  //24.
+  
+  {
+  "id": "galeocerdo_cuvier",
+  "nombre_comun": "Tiburón tigre",
+  "nombre_especie": "Galeocerdo cuvier",
+  "imagen": "https://example.com/galeocerdo_cuvier.jpg",
+  "descripcion_corta": "Tiburón grande y poderoso con patrones de rayas oscuras.",
+  "descripcion_larga": "El tiburón tigre (Galeocerdo cuvier) es uno de los tiburones más grandes y formidables que habita en los océanos tropicales y subtropicales de todo el mundo. Con un cuerpo robusto y poderoso, así como patrones de rayas oscuras que lo hacen fácilmente reconocible, este tiburón es un depredador ágil y versátil. Su dieta incluye una amplia variedad de presas, desde peces hasta tortugas marinas y mamíferos marinos. Aunque los encuentros con humanos son raros, se le considera potencialmente peligroso debido a su tamaño y naturaleza depredadora.",
+  "datos": {
+  "longevidad": "Alrededor de 25-30 años",
+  "ubicacion_especie": "Océanos tropicales y subtropicales en todo el mundo",
+  "comportamiento": "Mayormente solitario, caza tanto de día como de noche."
+  },
+  "alimentacion": "Peces, tortugas marinas, mamíferos marinos",
+  "tamaño": "Entre 3.5 y 4.5 metros"
   }
-];
+  
+  ]
+  
+  
