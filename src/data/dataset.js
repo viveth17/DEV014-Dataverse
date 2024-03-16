@@ -20,7 +20,7 @@ export default [
       "id": "rhincodon_typus",
       "name": "Tiburón Ballena",
       "nombreDeLaEspecie": "Rhincodon typus",
-      "imageUrl": "https://example.com/rhincodon_typus.jpg",
+      "imageUrl": "https://i.pinimg.com/736x/08/17/ad/0817ad97556b44950564c7ec4c1cb10d.jpg",
       "shortDescription": "El pez más grande del océano.",
       "description": "El tiburón ballena es una especie asombrosa, siendo el pez más grande del océano. Con un tamaño que puede superar los 12 metros, es una especie inofensiva que se alimenta principalmente de plancton. Se le encuentra en aguas tropicales y subtropicales alrededor del mundo. A menudo es avistado en áreas de alimentación cerca de la superficie del océano, donde se alimenta de forma pacífica. Su presencia indica la salud del ecosistema marino y su conservación es fundamental para mantener la biodiversidad.",
       "facts": {
@@ -36,7 +36,7 @@ export default [
       "id": "alopias_vulpinus",
       "name": "Tiburón Zorro",
       "nombreDeLaEspecie": "Alopias vulpinus",
-      "imageUrl": "https://example.com/alopias_vulpinus.jpg",
+      "imageUrl": "https://th.bing.com/th?id=OIF.Tyq93NuU0m3YQpi%2f9cWY5w&rs=1&pid=ImgDetMain",
       "shortDescription": "Con una cola alargada en forma de látigo.",
       "description": "El tiburón zorro es conocido por su cola alargada en forma de látigo, que utiliza para golpear a sus presas. Es una especie migratoria que se puede encontrar en aguas templadas y tropicales en todo el mundo. A menudo se le observa saltando fuera del agua. Su apariencia es única y su conducta juguetón lo convierten en un favorito entre los buceadores y observadores de tiburones. Sin embargo, la pesca indiscriminada amenaza su supervivencia y la de otros depredadores marinos.",
       "facts": {
@@ -52,7 +52,7 @@ export default [
       "id": "sphyrna_lewini",
       "name": "Tiburón Martillo",
       "nombreDeLaEspecie": "Sphyrna lewini",
-      "imageUrl": "https://example.com/sphyrna_lewini.jpg",
+      "imageUrl": "https://th.bing.com/th/id/OIP.XNcaU6ktthKD14OIez5lJAHaE7?rs=1&pid=ImgDetMain",
       "shortDescription": "Con su distintiva cabeza en forma de martillo.",
       "description": " El tiburón martillo es una especie fácilmente reconocible por su cabeza en forma de martillo, la cual tiene varias funciones, incluida una mayor sensibilidad electromagnética y un mejor campo visual. Se les puede encontrar en aguas tropicales y subtropicales, y son conocidos por sus migraciones estacionales. A pesar de su aspecto intimidante, rara vez representa una amenaza para los humanos, ya que es más probable que huya cuando se encuentra con buceadores. Su conservación es vital para mantener la biodiversidad marina.",
       "facts": {
@@ -68,7 +68,7 @@ export default [
       "id": "chlamydoselachus_anguineus",
       "name": "Quimera",
       "nombreDeLaEspecie": "Chlamydoselachus anguineus",
-      "imageUrl": "https://example.com/chlamydoselachus_anguineus.jpg",
+      "imageUrl": "https://fishesofaustralia.net.au/Images/Image/ChlamydoselachAnguinTePapa.jpg",
       "shortDescription": "Una especie primitiva de tiburón.",
       "description": "La quimera, también conocida como tiburón duende, es una especie primitiva de tiburón con características únicas, como aletas pectorales que parecen alas. Habita en profundidades extremas, hasta 2,500 metros bajo la superficie. Se alimenta principalmente de peces y invertebrados. Aunque raramente se encuentra en pesquerías comerciales, su captura incidental representa una amenaza para su población y se le considera vulnerable según la Lista Roja de la UICN. La protección de su hábitat es esencial para su supervivencia a largo plazo.",
       "facts": {
@@ -84,7 +84,7 @@ export default [
       "id": "lamna_nasus",
       "name": "Tiburón porbeagle",
       "nombreDeLaEspecie": "Lamna nasus",
-      "imageUrl": "https://example.com/lamna_nasus.jpg",
+      "imageUrl": "https://th.bing.com/th/id/OIP.m2vt7m4VL0zf4afB0oUsUAHaEj?pid=ImgDet&w=474&h=291&rs=1",
       "shortDescription": "Tiburón de aguas frías con aletas distintivas y comportamiento migratorio.",
       "description": "El tiburón porbeagle es conocido por su migración estacional, donde viaja grandes distancias para alimentarse y reproducirse. Este tiburón es vital para el ecosistema marino, regulando las poblaciones de peces. Son depredadores efectivos y su presencia indica la salud del océano. Además, son capturados por la pesca comercial y deportiva, lo que ha llevado a preocupaciones sobre su conservación. Se han implementado medidas de manejo para proteger su población, pero la pesca accidental sigue siendo una amenaza. La investigación continua es crucial para garantizar su supervivencia.",
       "facts": {
@@ -100,7 +100,7 @@ export default [
       "id": "prionace_glauca",
       "name": "Tiburón azul",
       "nombreDeLaEspecie": "Prionace glauca",
-      "imageUrl": "https://example.com/prionace_glauca.jpg",
+      "imageUrl": "https://theperfectworldfoundation.org/app/uploads/2015/05/Prionace_glauca_1.jpg",
       "shortDescription": "Tiburón rápido y ágil, reconocido por su coloración azul metálico.",
       "description": "El tiburón azul es uno de los depredadores más rápidos del océano, capaz de alcanzar velocidades de hasta 40 mph. Realiza migraciones impresionantes a lo largo de vastas distancias, lo que lo hace un componente vital del ecosistema marino global. Aunque generalmente solitario, puede formar grupos temporales para alimentarse. Esta especie enfrenta numerosas amenazas, incluida la sobrepesca y la degradación del hábitat. La conservación del tiburón azul es crucial para mantener el equilibrio de los océanos y la biodiversidad marina.",
       "facts": {
@@ -116,7 +116,7 @@ export default [
       "id": "carcharhinus_falciformis",
       "name": "Tiburón sedoso",
       "nombreDeLaEspecie": "Carcharhinus falciformis",
-      "imageUrl": "https://example.com/carcharhinus_falciformis.jpg",
+      "imageUrl": "https://www.guillenphoto.com/data/blog/2011/021-requin-soyeux/images/silky-shark-red-sea-01.jpg",
       "shortDescription": "Tiburón ágil y curioso, con piel lisa y brillante.",
       "description": "El tiburón sedoso, a menudo encontrado en aguas tropicales y subtropicales, es conocido por su piel suave y brillante. A pesar de su apariencia inofensiva, es un depredador poderoso que se encuentra en la cima de la cadena alimentaria marina. Su curiosidad natural lo lleva a investigar objetos desconocidos en su entorno, contribuyendo así a la comprensión de su hábitat y comportamiento. Además de ser cazado por su carne y aletas, también enfrenta amenazas debido a la pesca incidental y la degradación del hábitat.",
       "facts": {
@@ -132,7 +132,7 @@ export default [
       "id": "sphyrna_tiburo",
       "name": "Tiburón martillo común",
       "nombreDeLaEspecie": "Sphyrna tiburo",
-      "imageUrl": "https://example.com/sphyrna_tiburo.jpg",
+      "imageUrl": "https://www.zoochat.com/community/media/bonnethead-shark-sphyrna-tiburo.222406/full?d=1367527963",
       "shortDescription": "Tiburón con una cabeza distintiva en forma de martillo.",
       "description": "El tiburón martillo común se destaca por su cabeza única en forma de martillo, que le proporciona una mayor área sensorial para detectar presas. Son nadadores ágiles y se encuentran comúnmente en aguas costeras poco profundas. Se cree que la forma de su cabeza juega un papel en la mejora de la visión y la capacidad de detección de presas, lo que les da una ventaja evolutiva en la caza. Su distribución global y su papel como depredador tope lo convierten en una especie clave para la salud de los ecosistemas marinos.",
       "facts": {
@@ -148,7 +148,7 @@ export default [
       "id": "triakis_semifasciata",
       "name": "Tiburón leopardo",
       "nombreDeLaEspecie": "Triakis semifasciata",
-      "imageUrl": "https://example.com/triakis_semifasciata.jpg",
+      "imageUrl": "https://th.bing.com/th/id/R.0f2bb2fd51afadd7bf3dea78c43f67df?rik=6Ujf%2boLJIlEfLQ&riu=http%3a%2f%2fkids.sandiegozoo.org%2fsites%2fdefault%2ffiles%2f2017-07%2fleopard-shark-02.jpg&ehk=%2fih8PRdvJ29SH0wbw1jo6yLG6OCcNNNE8w4GkymEoR8%3d&risl=&pid=ImgRaw&r=0",
       "shortDescription": "Tiburón con manchas oscuras en un fondo claro, parecido al pelaje de un leopardo.",
       "description": "El tiburón leopardo, con su distintivo patrón de manchas, es una especie común en aguas costeras poco profundas. A menudo se encuentra descansando en el fondo marino durante el día y se vuelve más activo durante la noche para cazar. Es un depredador oportunista que se alimenta de una variedad de presas, desde peces pequeños hasta cangrejos y calamares. Su adaptabilidad le permite sobrevivir en diversos entornos marinos, lo que lo convierte en una especie exitosa y resistente. A pesar de su relativa abundancia, la presión humana sigue siendo una amenaza para su conservación.",
       "facts": {
@@ -164,7 +164,7 @@ export default [
       "id": "isistius_brasiliensis",
       "name": "Tiburón linterna",
       "nombreDeLaEspecie": "Isistius brasiliensis",
-      "imageUrl": "https://example.com/isistius_brasiliensis.jpg",
+      "imageUrl": "https://fishesofaustralia.net.au/Images/Image/IsistiusBrasiliens4RobZugaro.jpg",
       "shortDescription": "Pequeño tiburón bioluminiscente de aguas profundas.",
       "description": "El tiburón linterna (Isistius brasiliensis) es una especie fascinante que habita en las profundidades abisales de los océanos. Dotado de órganos fotóforos, emite una luz tenue que le sirve para atraer a sus presas en la oscuridad. Su mandíbula prominente alberga filas de pequeños dientes afilados, facilitando la captura de peces y calamares. A pesar de su diminuto tamaño, desempeña un papel crucial en el equilibrio ecológico de su hábitat. Este tiburón nocturno, solitario por naturaleza, representa un enigma biológico para los científicos marinos, quienes continúan estudiando su comportamiento y adaptaciones únicas.",
       "facts": {
@@ -180,7 +180,7 @@ export default [
       "id": "etmopterus_spinax",
       "name": "Tiburón linterna negro",
       "nombreDeLaEspecie": "Etmopterus spinax",
-      "imageUrl": "https://example.com/etmopterus_spinax.jpg",
+      "imageUrl": "https://static.turbosquid.com/Preview/2014/07/08__06_25_19/LanternShark.jpgabbbddb0-366f-412d-a23b-a36f23d8bfd9Original.jpg",
       "shortDescription": "Tiburón pequeño de aguas profundas con bioluminiscencia en su piel.",
       "description": "El tiburón linterna negro (Etmopterus spinax) es una criatura asombrosa de las profundidades marinas. Su piel oscura, punteada con puntos luminosos, le otorga un aspecto misterioso. Este depredador nocturno se aventura en las frías aguas del Atlántico, cazando pequeños peces y crustáceos con astucia. A pesar de su tamaño modesto, su longevidad sorprende a los científicos, pudiendo alcanzar hasta medio siglo de vida. Adaptado a la vida en las tinieblas del abismo, el tiburón linterna negro es un testimonio de la diversidad y la maravilla de los océanos.",
       "facts": {
@@ -196,7 +196,7 @@ export default [
       "id": "heterodontus_francisci",
       "name": "Tiburón duende",
       "nombreDeLaEspecie": "Heterodontus francisci",
-      "imageUrl": "https://example.com/heterodontus_francisci.jpg",
+      "imageUrl": "https://www.oceanlight.com/stock-photo/heterodontus-francisci-horn-shark-photo-09568-397960.jpg",
       "shortDescription": "Tiburón de apariencia única con un hocico alargado.",
       "description": "El tiburón duende (Heterodontus francisci) es una joya de los arrecifes de coral del Pacífico. Reconocido por su inconfundible hocico largo y sus aletas puntiagudas, este tiburón es un maestro de la caza entre las grietas rocosas. A pesar de su apariencia intimidante, su dieta es relativamente inofensiva, compuesta principalmente por crustáceos y moluscos. Su longevidad, de hasta un cuarto de siglo, permite que esta especie sea un componente vital de los delicados ecosistemas coralinos. El tiburón duende, una maravilla de la naturaleza, continúa fascinando a científicos y aficionados por igual.",
       "facts": {
@@ -212,7 +212,7 @@ export default [
       "id": "sphyrna_mokarran",
       "name": "Tiburón martillo gigante",
       "nombreDeLaEspecie": "Sphyrna mokarran",
-      "imageUrl": "https://example.com/sphyrna_mokarran.jpg",
+      "imageUrl": "https://th.bing.com/th/id/R.cd7158746a0af6cc4e08836a60ed57e9?rik=EMTGaLqzxd%2b5oQ&riu=http%3a%2f%2farchive.zbrushcentral.com%2fattachment.php%3fattachmentid%3d169716&ehk=7j%2bFJ0yQOYK3Z6MRhbbp3lkuIN%2fjJssloVmcYFSixRo%3d&risl=&pid=ImgRaw&r=0",
       "shortDescription": "Impresionante tiburón con cabeza en forma de martillo.",
       "description": "El tiburón martillo gigante (Sphyrna mokarran) es una maravilla evolutiva de los océanos tropicales y subtropicales. Su cabeza única, en forma de martillo, no solo le proporciona una visión panorámica excepcional, sino que también mejora su capacidad de detección de presas. Este depredador ágil y social forma grupos migratorios que recorren vastas distancias en busca de alimento. Su dieta variada incluye peces óseos, rayas y calamares. A pesar de su estatus de superdepredador, el tiburón martillo gigante enfrenta amenazas como la pesca indiscriminada y la degradación del hábitat.",
       "facts": {
@@ -228,7 +228,7 @@ export default [
       "id": "carcharhinus_leucas",
       "name": "Tiburón toro",
       "nombreDeLaEspecie": "Carcharhinus leucas",
-      "imageUrl": "https://example.com/carcharhinus_leucas.jpg",
+      "imageUrl": "https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/66/2018/08/DSnyder_Carcharhinus_leucas_GreatBahamaBank_Bahamas_DBS_4868-003.jpg",
       "shortDescription": "Tiburón robusto conocido por su agresividad y adaptabilidad.",
       "description": "El tiburón toro (Carcharhinus leucas) es un formidable depredador que prospera en una amplia gama de hábitats, desde aguas costeras hasta ríos de agua dulce. Con su cuerpo robusto y su reputación de agresividad, el tiburón toro es un cazador eficiente que se alimenta de una variedad de presas, incluidos peces, crustáceos y mamíferos marinos. Su capacidad para sobrevivir en aguas dulces lo hace único entre los tiburones. A pesar de ser temido por los bañistas y pescadores, el tiburón toro desempeña un papel vital en el equilibrio ecológico de los ecosistemas acuáticos que habita.",
       "facts": {
@@ -244,7 +244,7 @@ export default [
       "id": "sphyrna_tudes",
       "name": "Tiburón martillo común",
       "nombreDeLaEspecie": "Sphyrna tudes",
-      "imageUrl": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4269.jpg",
+      "imageUrl": "https://laguna-akul.ru/upload/akulinfo/vsevidy/42-sphyrna.jpg",
       "shortDescription": "Tiburón con cabeza en forma de martillo, ampliamente distribuido en aguas tropicales y templadas.",
       "description": "El tiburón martillo común, Sphyrna tudes, es conocido por su distintiva cabeza en forma de martillo, que le brinda ventajas sensoriales. Su esperanza de vida puede superar los 30 años. Habita en áreas costeras y en alta mar, donde forma grupos sociales. Son depredadores oportunistas que se alimentan principalmente de peces óseos y calamares. Los tiburones martillo común pueden llegar a medir hasta 4 metros de longitud. Su población está amenazada por la pesca excesiva y la degradación del hábitat.",
       "facts": {
@@ -260,7 +260,7 @@ export default [
       "id": "euprotomicroides_zantedeschia",
       "name": "Tiburón linterna del Pacífico",
       "nombreDeLaEspecie": "Euprotomicroides zantedeschia",
-      "imageUrl": "https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/35/2017/05/Triakis_longimana1.jpg",
+      "imageUrl": "https://sharksinfo.com/wp-content/uploads/2021/11/2-14-768x437.jpg",
       "shortDescription": "Tiburón de aguas profundas con órganos bioluminiscentes, se encuentra en el Pacífico.",
       "description": "El tiburón linterna del Pacífico, Euprotomicroides zantedeschia, es un tiburón poco común que habita en las profundidades del océano Pacífico. Posee órganos bioluminiscentes en el abdomen, los cuales utiliza para atraer presas en las oscuras profundidades marinas. Su esperanza de vida puede superar los 25 años. Se alimenta de peces, crustáceos y cefalópodos. Aunque no se sabe mucho sobre su comportamiento social, se cree que son solitarios. La población de este tiburón se ve amenazada por la pesca incidental y la degradación de su hábitat.",
       "facts": {
@@ -276,7 +276,7 @@ export default [
       "id": "rhizoprionodon_terraenovae",
       "name": "Tiburón de arrecife de arena",
       "nombreDeLaEspecie": "Rhizoprionodon terraenovae",
-      "imageUrl": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4244.jpg",
+      "imageUrl": "https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/66/2017/05/Rhizoprionodon-terraenovae-07.jpg",
       "shortDescription": "Pequeño tiburón costero que se encuentra en arrecifes y fondos arenosos.",
       "description": "El tiburón de arrecife de arena, Rhizoprionodon terraenovae, es un pequeño tiburón costero que se encuentra en arrecifes y fondos arenosos en aguas tropicales y subtropicales. Su esperanza de vida puede alcanzar los 15 años. Son animales territoriales y pueden ser agresivos en defensa de su espacio. Se alimentan principalmente de peces pequeños, crustáceos y cefalópodos. Este tiburón es importante para el equilibrio de los ecosistemas marinos. Sin embargo, su población se ve amenazada por la pesca excesiva y la degradación del hábitat costero.",
       "facts": {
@@ -292,7 +292,7 @@ export default [
       "id": "carcharodon_carcharias",
       "name": "Gran tiburón blanco",
       "nombreDeLaEspecie": "Carcharodon carcharias",
-      "imageUrl": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4243.jpg",
+      "imageUrl": "https://www.tiburoneswiki.com/Imagenes/carcharodon-carcharias.jpg",
       "shortDescription": "Tiburón depredador de gran tamaño, conocido por su coloración blanca y ataques a mamíferos marinos.",
       "description": "El gran tiburón blanco, es uno de los depredadores marinos más grandes y temidos. Puede alcanzar una longitud de más de 6 metros y vivir más de 70 años. Habita en aguas templadas alrededor del mundo y es conocido por sus ataques a mamíferos marinos, como focas y leones marinos. Su comportamiento de caza es meticuloso y estratégico. Aunque su imagen a menudo se ve asociada con ataques a humanos, estos son raros y generalmente son casos de identificación errónea. Sin embargo, la sobreexplotación y la caza furtiva han llevado a una disminución en su población.",
       "facts": {
@@ -308,7 +308,7 @@ export default [
       "id": "sphyrna_spp",
       "name": "Tiburón martillo",
       "nombreDeLaEspecie": "Género Sphyrna",
-      "imageUrl": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4257.jpg",
+      "imageUrl": "https://alchetron.com/cdn/sphyrna-cc06f209-6de8-48c4-885e-f7c3710e44c-resize-750.jpeg",
       "shortDescription": "Familia de tiburones con una cabeza distintiva en forma de martillo.",
       "description": "Los tiburones martillo, del género Sphyrna, son conocidos por sus cabezas en forma de martillo, que les brindan ventajas sensoriales únicas. Esta forma especializada les permite detectar presas y moverse con eficiencia en su entorno acuático. Se encuentran en diferentes hábitats alrededor del mundo, desde aguas tropicales hasta templadas. Son depredadores versátiles que se alimentan de una variedad de presas, incluidos peces óseos, calamares y crustáceos. Algunas especies de este género forman grupos sociales, mientras que otras son más solitarias. Sin embargo, todas enfrentan amenazas debido a la pesca excesiva y la pérdida de hábitat.",
       "facts": {
@@ -324,7 +324,7 @@ export default [
       "id": "isurus_oxyrinchus",
       "name": "Tiburón mako",
       "nombreDeLaEspecie": "Isurus oxyrinchus",
-      "imageUrl": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4255.jpg",
+      "imageUrl": "https://th.bing.com/th/id/R.a50da74dc4d67c09e6c850654820c8d4?rik=m0vzjM9l%2bz78Uw&pid=ImgRaw&r=0",
       "shortDescription": "Tiburón rápido y ágil, conocido por su velocidad en el agua.",
       "description": "El tiburón mako, Isurus oxyrinchus, es una especie de tiburón altamente migratoria, conocida por su velocidad y agilidad en el agua. Puede alcanzar velocidades de hasta 60 kilómetros por hora. Habita en aguas tropicales y templadas en todo el mundo, preferentemente en la plataforma continental y en alta mar. Su dieta se compone principalmente de peces, calamares y otros tiburones. Son depredadores eficientes que cazan con precisión. Aunque no son agresivos hacia los humanos, pueden representar un peligro para los pescadores debido a su fuerza y velocidad.",
       "facts": {
@@ -341,7 +341,7 @@ export default [
       "id": "alopias_pelagicus",
       "name": "Tiburón zorro",
       "nombreDeLaEspecie": "Alopias pelagicus",
-      "imageUrl": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4260.jpg",
+      "imageUrl": "https://ecodivecenter.com/product_images/uploaded_images/ezgif.com-webp-to-jpg.jpg",
       "shortDescription": "Tiburón de aspecto distintivo con una larga cola similar a la de un zorro.",
       "description": "El tiburón zorro, Alopias pelagicus, es reconocido por su distintiva cola larga y delgada, que puede representar hasta la mitad de su longitud total. Habita en aguas tropicales y templadas de océanos abiertos en todo el mundo. Es una especie migratoria que sigue las corrientes oceánicas en busca de alimento. Se alimenta principalmente de peces pequeños, calamares y crustáceos. Aunque su apariencia puede ser imponente, el tiburón zorro rara vez representa una amenaza para los humanos. Sin embargo, su población enfrenta presiones debido a la pesca incidental y la degradación del hábitat.",
       "facts": {
@@ -358,7 +358,7 @@ export default [
       "id": "chiloscyllium_punctatum",
       "name": "Tiburón bambú",
       "nombreDeLaEspecie": "Chiloscyllium punctatum",
-      "imageUrl": "https://www.sharktrust.org/Handlers/ImageHandler.ashx?id=4263.jpg",
+      "imageUrl": "https://th.bing.com/th/id/OIP.I6sYrOUUgvzvbqG6VmjHZQHaE8?rs=1&pid=ImgDetMain",
       "shortDescription": "Tiburón de aspecto peculiar, con patrones de manchas y hábitos nocturnos.",
       "description": "El tiburón bambú, Chiloscyllium punctatum, es un tiburón pequeño y de aspecto peculiar, con un cuerpo alargado y patrones de manchas únicos. Se encuentra en aguas tropicales poco profundas del océano Indo-Pacífico. Es un tiburón nocturno que se esconde entre los arrecifes de coral y los lechos marinos durante el día, y se aventura a cazar por la noche. Se alimenta principalmente de crustáceos, peces pequeños y moluscos. Aunque su tamaño y comportamiento generalmente lo mantienen fuera del alcance humano, es capturado accidentalmente en la pesca comercial y la acuicultura.",
       "facts": {
@@ -375,7 +375,7 @@ export default [
       "id": "galeocerdo_cuvier",
       "name": "Tiburón tigre",
       "nombreDeLaEspecie": "Galeocerdo cuvier",
-      "imageUrl": "https://example.com/galeocerdo_cuvier.jpg",
+      "imageUrl": "https://th.bing.com/th/id/R.ff4aae717cbee60c90a60aad5e0704a1?rik=vp7aYNMXSrT4Tw&riu=http%3a%2f%2ffishesofaustralia.net.au%2fimages%2fimage%2fGaleocerdo2KevinBryant.jpg&ehk=aUAwZLUyGFi%2fLnDKU906CPYD6D%2bsKYWEK9xMvveuJOE%3d&risl=&pid=ImgRaw&r=0",
       "shortDescription": "Tiburón grande y poderoso con patrones de rayas oscuras.",
       "description": "El tiburón tigre (Galeocerdo cuvier) es uno de los tiburones más grandes y formidables que habita en los océanos tropicales y subtropicales de todo el mundo. Con un cuerpo robusto y poderoso, así como patrones de rayas oscuras que lo hacen fácilmente reconocible, este tiburón es un depredador ágil y versátil. Su dieta incluye una amplia variedad de presas, desde peces hasta tortugas marinas y mamíferos marinos. Aunque los encuentros con humanos son raros, se le considera potencialmente peligroso debido a su tamaño y naturaleza depredadora.",
       "facts": {
