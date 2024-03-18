@@ -50,7 +50,7 @@ describe('Test de data set', () => {
         });
     
         it('Tiene el formato correcto', () => {
-          expect(/^[a-zA-Z0-9_\-]*$/.test(item.id)).toBe(true);
+          expect(/^[a-zA-Z0-9_-]*$/.test(item.id)).toBe(true);
           expect(item.id.length).toBeGreaterThan(0);
           expect(item.id.length).toBeLessThanOrEqual(32);
         });
