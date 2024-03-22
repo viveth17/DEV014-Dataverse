@@ -15,6 +15,8 @@ export const renderItems = (data) => {
     </div>
   </dl>
   `
+
+  
     // liElement.innerHTML = item.name;
     // console.log(liElement);
     ulElement.appendChild(liElement);
