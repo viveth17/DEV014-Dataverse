@@ -5,8 +5,10 @@ export const renderItems = (data) => {
   data.forEach(item => {
     const liElement = document.createElement('li');
     liElement.setAttribute("class", "card");
+    liElement.setAttribute("itemtype", item.nombreDeLaEspecie);
+    liElement.setAttribute("itemscope", "");
     liElement.innerHTML = `
-    <dl itemscope itemtype=${item.nombreDeLaEspecie}>
+    <dl>
     <img src=${item.imageUrl} alt="Ada Lovelace" />
     <div>
     <h3 itemprop="name">${item.name}</h3>
@@ -16,7 +18,7 @@ export const renderItems = (data) => {
   </dl>
   `
 
-  
+
     // liElement.innerHTML = item.name;
     // console.log(liElement);
     ulElement.appendChild(liElement);

@@ -1,4 +1,4 @@
-import { example } from './dataFunctions.js';
+import { filterData } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
@@ -8,10 +8,23 @@ const htmlElement = document.querySelector('html');
 
 htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].appendChild(renderItems(data));
 
+// Para seleccionar el <select>
+const selectElement = document.getElementsByName("locationOfTheSpecie")[0];
+// Evento al elemento <select> 
+selectElement.addEventListener('change', function () {
+// capturar el valor seleccionado 
+  const selectedValue = selectElement.value;
+  console.log('Opción seleccionada:', selectedValue);
+
+  //filtrar los datos basados en el valor seleccionado
+  const filteredData = filterData(data, 'facts.locationOfTheSpecie', selectedValue);
+  // console.log('filteredData', filterData);
+  //renderizar los elementos filtrados 
+  htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(filteredData));
+});
 
 
 
-
-console.log(example, renderItems(data), data);
+// console.log(example, renderItems(data), data);
 
 renderItems(data);
