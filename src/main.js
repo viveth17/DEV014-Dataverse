@@ -1,5 +1,5 @@
 import { filterData } from './dataFunctions.js';
-// import { sortBySharkSize } from './dataFunctions.js';
+import { sortBySharkSize } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
@@ -23,29 +23,29 @@ selectElement.addEventListener('change', function () {
   htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(filteredData));
 });
 
-// // Para seleccionar el <select> Ordenar
-// const sortElement = document.getElementsByName("maximumSizeMtr")[0];
+// Para seleccionar el <select> Ordenar
+const sortElement = document.getElementsByName("maximumSizeMtr")[0];
 
-// // Evento al elemento <select> 
-// sortElement.addEventListener("change", function () {
-//   // Capturar el valor seleccionado 
-//   const sortValue = sortElement.value;
+// Evento al elemento <select> 
+sortElement.addEventListener("change", function () {
+  // Capturar el valor seleccionado 
+  const sortValue = sortElement.value;
 
-//   // Ordenar la data basada en el valor seleccionado
-//   let sortedData;
-//   if (sortValue === 'asc') {
-//     sortedData = sortBySharkSize(data, 'maximumSizeMtr', 'asc');
-//   } else if (sortValue === 'desc') {
-//     sortedData = sortBySharkSize(data, 'maximumSizeMtr', 'desc');
-//   } else {
-//     // Manejar un caso por defecto
-//     sortedData = data;
-//   }
+  // Ordenar la data basada en el valor seleccionado
+  let sortedData;
+  if (sortValue === 'asc') {
+    sortedData = sortBySharkSize(data, 'maximumSizeMtr', 'asc');
+  } else if (sortValue === 'desc') {
+    sortedData = sortBySharkSize(data, 'maximumSizeMtr', 'desc');
+  } else {
+    // Manejar un caso por defecto
+    sortedData = data;
+  }
 
-//   // Renderizar los elementos ordenados
-//   htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(sortedData));
-// });
+  // Renderizar los elementos ordenados
+  htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(sortedData));
+});
 
-// // console.log(example, renderItems(data), data);
+// console.log(example, renderItems(data), data);
 
 renderItems(data);

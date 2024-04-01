@@ -15,7 +15,7 @@ export const renderItems = (data) => {
     <h4 itemprop="nombre de la especie">${item.nombreDeLaEspecie}</h4>
     <p itemprop="shortDescription">${item.shortDescription}</p>
     </div>
-  </dl>
+    </dl>
   `
 
 
