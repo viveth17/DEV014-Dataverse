@@ -1,92 +1,156 @@
 ul{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    flex-direction: row;
-    max-height: 100vh;
-    padding: 0;
-  }
-  img{
-    width: 70px;
-    height: 66px;
-    border-radius: 5px ;
-    flex-basis: 70px;
-  }
-   .card{
-    width: 300px;
-    height: 77px;
-    background: #F5EEDC;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-    color: black;
-    margin: 10px;
-    list-style-type: none;
-  }
-  p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-small;
-    color: black;
-    text-align: left;
-    margin: 0cap;
-    margin-left: 10px;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-
-  }
-  h3{
-    margin: 0 0 2px 0;
-    margin-left: 10px;
-    font-size: 15px;
-    text-align: left;
-  }
-  h4{
-    text-align: left;
-    margin: 0 0 5px 0;
-    margin-left: 10px;
-    opacity: 0.7;
-    font-style: italic;
-  }
-  dl{
-    display: flex;
-    flex-direction: row;
-  }
-  header, footer {
-    padding: 10px;
-    text-align: center;
-  }
-
-  h1{
-    font-family: 'Inter', sans-serif; /* Utiliza la fuente Inter, y si no está disponible, utiliza una fuente sans-serif genérica */
-    font-weight: 800; /* Define el grosor de la fuente como extra bold */
-    font-size: 50px; /* Tamaño del texto en píxeles */
-  }
-  h2{
-    font-family: 'Inter', sans-serif; /* Utiliza la fuente Inter, y si no está disponible, utiliza una fuente sans-serif genérica */
-    font-weight: 800; /* Define el grosor de la fuente como extra bold */
-    font-size: 20px; /* Tamaño del texto en píxeles */
-  }
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  max-height: 100vh;
+  padding: 0;
+  /* background-color: #DAD7D7; */
+}
+img{
+  width: 70px;
+  height: 66px;
+  border-radius: 5px ;
+  flex-basis: 70px;
+}
+ .card{
+  width: 300px;
+  height: 77px;
+  background: #F5EEDC;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: black;
+  margin: 10px;
+  list-style-type: none;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-small;
+  color: black;
+  text-align: left;
+  margin: 0cap;
+  margin-left: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+h3{
+  margin: 0 0 2px 0;
+  margin-left: 10px;
+  font-size: 15px;
+  text-align: left;
+}
+h4{
+  text-align: left;
+  margin: 0 0 5px 0;
+  margin-left: 10px;
+  opacity: 0.7;
+  font-style: italic;
+}
+dl{
+  display: flex;
+  flex-direction: row;
+}
+header {
+  background-image: url(https://i.pinimg.com/564x/ae/76/01/ae760169d6e090ab2159da8d9a2c1bcd.jpg);
+  background-size: cover;
+  background-position: bottom;
+  /* filter: brightness(100%); */
+  filter: contrast(106%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
   
-  .p {
-    background-size: 0%;
-    padding: 10px;
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-  } 
+}
+footer {
+  background-image: url(https://i.pinimg.com/564x/ae/76/01/ae760169d6e090ab2159da8d9a2c1bcd.jpg);
+  background-size: cover;
+  background-position: bottom;
+  /* filter: brightness(100%); */
+  filter: contrast(106%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+h1{
+  font-family: 'Inter', sans-serif; /* Utiliza la fuente Inter, y si no está disponible, utiliza una fuente sans-serif genérica */
+  font-weight: 800; /* Define el grosor de la fuente como extra bold */
+  font-size: 50px; /* Tamaño del texto en píxeles */
+}
+h2{
+  font-family: 'Inter', sans-serif; /* Utiliza la fuente Inter, y si no está disponible, utiliza una fuente sans-serif genérica */
+  font-weight: 800; /* Define el grosor de la fuente como extra bold */
+  font-size: 20px; /* Tamaño del texto en píxeles */
+}
+.p {
+  background-size: 0%;
+  padding: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+main{
+  /* background-color: #DAD7D7;
+  padding: px; */
+  text-align: center;
+}
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
+}
+section{
+  background-image: url(https://i.pinimg.com/564x/ae/76/01/ae760169d6e090ab2159da8d9a2c1bcd.jpg);
+  background-size: cover;
+  background-position: bottom;
+  /* filter: brightness(100%); */
+  filter: contrast(96%);
+  width: 100% ;
+  height: 100%;
+  border-radius: 5px;
+  /* margin: ;
+  padding: ;
+  font-size: ;
+  border: ;
+  color: ; */
+}
+label{
+  color: rgb(235, 196, 196);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: 700;
+  margin-right: 15px;
+  margin-left: 15px;
 
-  main{
-    background-color: #dad7d7;
-    padding: 20px;
-    text-align: center;
-  } 
-  
-  body {
-    background-image: url(https://i.pinimg.com/564x/3b/40/7f/3b407f36dc76a85eaefb6451bd66e4f6.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #FFFFFF;
-  }
+}
+select {
+  padding: 10px;
+  display: inline-flex;
+  gap: 500px;
+  text-align: left;
+  background-color: rgb(250, 249, 249);
+  border-radius: 5px;
+  font-size: medium;
+  font-family: sans-serif;
+}
+#clearFilter{
+  padding: 5px;
+  background-color: rgb(250, 249, 249);
+  border-radius: 5px;
+  font-size: medium;
+  font-family: sans-serif;
+  background-color: rgb(196, 191, 191);
+  font-weight: 700;
+}
