@@ -46,6 +46,10 @@ sortElement.addEventListener("change", function () {
   htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(statusData));
 });
 
-// console.log(example, renderItems(data), data);
+const buttonClear = document.getElementById('clearFilter');
+buttonClear.addEventListener("click", ()=>{
+  statusData= data;
+  htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(statusData));
+})
 
 renderItems(data);

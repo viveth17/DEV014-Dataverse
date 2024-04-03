@@ -61,5 +61,40 @@ describe('sortBySharkSize', () => {
       { name: 'Tiburón Zorro', maximumSizeMtr: 3.5 },
     ]);
   });
+  test('Ordena los datos por tamaño de tiburón de forma ascendente cuando no se especifica un campo de ordenación', () => {
+    const data = [
+      { name: 'Tiburón Megamouth', maximumSizeMtr: 6 },
+      { name: 'Tiburón Ballena', maximumSizeMtr: 14 },
+      { name: 'Tiburón Zorro', maximumSizeMtr: 3.5 },
+    ];
+    const sortBy = null; // No se especifica un campo de ordenación
+    const sortOrder = 'asc';
+    
+    const sortedData = sortBySharkSize(data, sortBy, sortOrder);
+    
+    expect(sortedData).toEqual([
+      { name: 'Tiburón Zorro', maximumSizeMtr: 3.5 },
+      { name: 'Tiburón Megamouth', maximumSizeMtr: 6 },
+      { name: 'Tiburón Ballena', maximumSizeMtr: 14 },   
 
+    ]);
+  });
+  test('Devuelve cero cuando los tamaños de los tiburones son iguales', () => {
+    const data = [
+      { name: 'Tiburón Megamouth', maximumSizeMtr: 6 },
+      { name: 'Tiburón Ballena', maximumSizeMtr: 14 },
+      { name: 'Tiburón Zorro', maximumSizeMtr: 14 },
+    ];
+    const sortBy = 'maximumSizeMtr';
+    const sortOrder = 'asc';
+    
+    const sortedData = sortBySharkSize(data, sortBy, sortOrder);
+    
+    // Esperamos que los dos tiburones con el mismo tamaño permanezcan en el mismo orden
+    expect(sortedData).toEqual([
+      { name: 'Tiburón Megamouth', maximumSizeMtr: 6 },
+      { name: 'Tiburón Ballena', maximumSizeMtr: 14 },
+      { name: 'Tiburón Zorro', maximumSizeMtr: 14 },
+    ]);
+  });
 });
