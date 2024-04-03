@@ -48,3 +48,12 @@ export const sortBySharkSize = (data, sortBy, sortOrder) => {
   return sortedData;
 };
 
+export const computeStats = (data) => {
+  const longevity = data.map(item => item.facts.approximateLongevity);
+  // console.log('longevity',longevity);
+  const totalLongevity = longevity.reduce((acc,cur) => acc + cur, 0);
+  // console.log('suma array',totalLongevity);
+  const averageLongevity = (totalLongevity/longevity.length).toFixed(2);
+  return averageLongevity;
+  // console.log('promedio', averageLongevity);
+}

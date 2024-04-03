@@ -2,6 +2,7 @@ import { filterData } from './dataFunctions.js';
 import { sortBySharkSize } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
+// import {computeStats}from './dataFunctions.js';
 
 
 const htmlElement = document.querySelector('html');
@@ -51,5 +52,13 @@ buttonClear.addEventListener("click", ()=>{
   statusData= data;
   htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(statusData));
 })
+
+// const longevityAverage = document.getElementById('longevityProm');
+// longevityAverage.addEventListener("click", ()=>{
+//   // console.log('evento',longevityAverage);
+//   // calculeLongevity = computeStats(data);
+// // console.log();
+
+// })
 
 renderItems(data);
