@@ -32,9 +32,9 @@ selectElement.addEventListener('change', function () {
 // Para seleccionar el <select> Ordenar
 const sortElement = document.getElementsByName("maximumSizeMtr")[0];
 // Evento al elemento <select> 
-sortElement.addEventListener("change", function () {
+sortElement.addEventListener("change", function (event) {
   // Capturar el valor seleccionado 
-  const sortValue = sortElement.value;
+  const sortValue = event.target.value;
 
   // Ordenar la data basada en el valor seleccionado
   let sortedData;
