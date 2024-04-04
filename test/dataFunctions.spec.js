@@ -1,4 +1,4 @@
-import { filterData } from '../src/dataFunctions.js';
+import { computeStats, filterData } from '../src/dataFunctions.js';
 import { sortBySharkSize } from '../src/dataFunctions.js';
 import { data } from './data.js';
 
@@ -41,7 +41,7 @@ describe('sortBySharkSize', () => {
     expect(sortedData).toEqual([
       { name: 'Tiburón Zorro', maximumSizeMtr: 3.5 },
       { name: 'Tiburón Megamouth', maximumSizeMtr: 6 },
-      { name: 'Tiburón Ballena', maximumSizeMtr: 14},
+      { name: 'Tiburón Ballena', maximumSizeMtr: 14 },
     ]);
   });
 
@@ -69,13 +69,13 @@ describe('sortBySharkSize', () => {
     ];
     const sortBy = null; // No se especifica un campo de ordenación
     const sortOrder = 'asc';
-    
+
     const sortedData = sortBySharkSize(data, sortBy, sortOrder);
-    
+
     expect(sortedData).toEqual([
       { name: 'Tiburón Zorro', maximumSizeMtr: 3.5 },
       { name: 'Tiburón Megamouth', maximumSizeMtr: 6 },
-      { name: 'Tiburón Ballena', maximumSizeMtr: 14 },   
+      { name: 'Tiburón Ballena', maximumSizeMtr: 14 },
 
     ]);
   });
@@ -87,14 +87,29 @@ describe('sortBySharkSize', () => {
     ];
     const sortBy = 'maximumSizeMtr';
     const sortOrder = 'asc';
-    
+
     const sortedData = sortBySharkSize(data, sortBy, sortOrder);
-    
+
     // Esperamos que los dos tiburones con el mismo tamaño permanezcan en el mismo orden
     expect(sortedData).toEqual([
       { name: 'Tiburón Megamouth', maximumSizeMtr: 6 },
       { name: 'Tiburón Ballena', maximumSizeMtr: 14 },
       { name: 'Tiburón Zorro', maximumSizeMtr: 14 },
     ]);
+  });
+  // test de la funcion computeStats
+  describe('computeStats', () => {
+    test('Calcula el promedio de la longevidad aproximada', () => {
+      const data = [
+        { facts: { approximateLongevity: 100 } },
+        { facts: { approximateLongevity: 70 } },
+        { facts: { approximateLongevity: 24 } },
+      ];
+      const average = computeStats(data);
+
+      expect(average).toBe('64.67');
+
+
+    });
   });
 });

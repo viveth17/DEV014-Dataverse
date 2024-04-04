@@ -2,7 +2,7 @@ import { filterData } from './dataFunctions.js';
 import { sortBySharkSize } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
-// import {computeStats}from './dataFunctions.js';
+import { computeStats } from './dataFunctions.js';
 
 
 const htmlElement = document.querySelector('html');
@@ -13,16 +13,20 @@ htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].appen
 const selectElement = document.getElementsByName("locationOfTheSpecie")[0];
 // Evento al elemento <select> 
 selectElement.addEventListener('change', function () {
-// capturar el valor seleccionado 
+  // capturar el valor seleccionado 
   const selectedValue = selectElement.value;
   // console.log('Opción seleccionada:', selectedValue);
-
-  //filtrar los datos basados en el valor seleccionado
-  const filteredData = filterData(data, 'facts.locationOfTheSpecie', selectedValue);
-  statusData = filteredData;
-  // console.log('filteredData', filterData);
-  //renderizar los elementos filtrados 
-  htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(statusData));
+  if (selectedValue === 'Todas') {
+    htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(data));
+    // console.log('si entra');
+  } else {
+    //filtrar los datos basados en el valor seleccionado
+    const filteredData = filterData(data, 'facts.locationOfTheSpecie', selectedValue);
+    statusData = filteredData;
+    // console.log('filteredData', filterData);
+    //renderizar los elementos filtrados 
+    htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(statusData));
+  }
 });
 
 // Para seleccionar el <select> Ordenar
@@ -42,23 +46,23 @@ sortElement.addEventListener("change", function () {
     // Manejar un caso por defecto
     sortedData = statusData;
   }
-  statusData = sortedData 
+  statusData = sortedData
   // Renderizar los elementos ordenados
   htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(statusData));
 });
 
 const buttonClear = document.getElementById('clearFilter');
-buttonClear.addEventListener("click", ()=>{
-  statusData= data;
+buttonClear.addEventListener("click", () => {
+  statusData = data;
   htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(statusData));
+  document.querySelector('#locationOfTheSpecie').value = 'Todas';
+  // console.log('elementSelect', elementSelect);
 })
 
-// const longevityAverage = document.getElementById('longevityProm');
-// longevityAverage.addEventListener("click", ()=>{
-//   // console.log('evento',longevityAverage);
-//   // calculeLongevity = computeStats(data);
-// // console.log();
-
-// })
+const longevityAverage = document.querySelector('#longevityProm');
+const longevityText = document.querySelector('#longevityText');
+longevityAverage.addEventListener("click", () => {
+  longevityText.innerHTML = 'Longevidad promedio: ' + computeStats(statusData) + ' años';
+})
 
 renderItems(data);

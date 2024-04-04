@@ -3,10 +3,8 @@ ul {
     flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: row;
-    /* max-height: 100vh; */
     padding: 0;
     justify-content: center;
-    /* background-color: #DAD7D7; */
 }
 
 img {
@@ -60,14 +58,11 @@ dl {
 }
 
 header {
-    background-image: url(https://i.pinimg.com/564x/ae/76/01/ae760169d6e090ab2159da8d9a2c1bcd.jpg);
+    background-image: url(https://images.unsplash.com/photo-1530053969600-caed2596d242?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: bottom;
-    /* filter: brightness(100%); */
     filter: contrast(106%);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     color: #FFFFFF;
     padding: 10px;
     text-align: center;
@@ -75,10 +70,9 @@ header {
 }
 
 footer {
-    background-image: url(https://i.pinimg.com/564x/ae/76/01/ae760169d6e090ab2159da8d9a2c1bcd.jpg);
+    background-image: url(https://images.unsplash.com/photo-1530053969600-caed2596d242?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: bottom;
-    /* filter: brightness(100%); */
     filter: contrast(106%);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -89,26 +83,18 @@ footer {
     width: 100%;
     height: 37px;
     font-size: 10px;
-    /* position: fixed; */
-    /* bottom: 0; */
 }
 
 h1 {
     font-family: 'Inter', sans-serif;
-    /* Utiliza la fuente Inter, y si no está disponible, utiliza una fuente sans-serif genérica */
     font-weight: 800;
-    /* Define el grosor de la fuente como extra bold */
     font-size: 50px;
-    /* Tamaño del texto en píxeles */
 }
 
 h2 {
     font-family: 'Inter', sans-serif;
-    /* Utiliza la fuente Inter, y si no está disponible, utiliza una fuente sans-serif genérica */
     font-weight: 800;
-    /* Define el grosor de la fuente como extra bold */
     font-size: 20px;
-    /* Tamaño del texto en píxeles */
 }
 
 .p {
@@ -133,36 +119,28 @@ body {
     background-size: cover;
     color: #FFFFFF;
     height: 100%;
+    margin: 0;
 }
 
 section {
-    background-image: url(https://i.pinimg.com/564x/ae/76/01/ae760169d6e090ab2159da8d9a2c1bcd.jpg);
-    background-size: cover;
-    background-position: bottom;
-    /* filter: brightness(100%); */
-    filter: contrast(96%);
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    /* margin: ;
-  padding: ;
-  font-size: ;
-  border: ;
-  color: ; */
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 4%;
 }
 
 label {
-    color: rgb(235, 196, 196);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: medium;
     font-weight: 700;
     margin-right: 15px;
     margin-left: 15px;
-
 }
 
 select {
-    padding: 10px;
+    padding: 5px;
     display: inline-flex;
     gap: 500px;
     text-align: left;
@@ -174,15 +152,24 @@ select {
 
 #clearFilter {
     padding: 5px;
-    /* background-color: rgb(250, 249, 249); */
     border-radius: 5px;
     font-size: medium;
     font-family: sans-serif;
-    /* background-color: rgb(196, 191, 191); */
     font-weight: 700;
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+#longevityText {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: MEDIUM;
+    font-weight: 700;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 @media (min-width : 900px) {
@@ -244,10 +231,12 @@ select {
     }
 
     .longevity {
-        background-image: url(https://i.pinimg.com/564x/ae/76/01/ae760169d6e090ab2159da8d9a2c1bcd.jpg);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 4%;
         background-size: cover;
         background-position: bottom;
-        /* filter: brightness(100%); */
         filter: contrast(96%);
         width: 100%;
         height: 100%;
@@ -255,16 +244,21 @@ select {
     }
 
     #longevityProm {
-        /* background-color: #007bff; */
         padding: 5px;
-        /* background-color: rgb(250, 249, 249); */
         border-radius: 5px;
         font-size: medium;
         font-family: sans-serif;
-        /* background-color: rgb(196, 191, 191); */
         font-weight: 700;
         color: #fff;
         background-color: #007bff;
         border-color: #007bff;
+    }
+
+    #longevityText {
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        margin-right: 15px;
+        margin-left: 15px;
     }
 }

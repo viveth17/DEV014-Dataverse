@@ -16,8 +16,9 @@
   <main>
     <!-- filtrar data -->
     <section>
-      <label for="locationOfTheSpecie"> Filtrar por hábitat de la especie:</label>
+      <label for="locationOfTheSpecie"> Hábitat:</label>
       <select id="locationOfTheSpecie" name="locationOfTheSpecie" data-testid="select-filter">
+        <option value="Todas">Todas</option>
         <option value="Aguas profundas">Aguas profundas</option>
         <option value="Aguas tropicales y subtropicales">Aguas tropicales y subtropicales</option>
         <option value="Océano Atlántico">Océano Atlántico</option>
@@ -25,17 +26,17 @@
         <option value="Océanos en todo el mundo">Océanos en todo el mundo</option>
       </select>
       <!-- ordenar data  -->
-      <label for="maximumSizeMtr">Ordenar por tamaño de tiburón en Mts:</label>
+      <label for="maximumSizeMtr">Tamaño:</label>
       <select id="maximumSizeMtr" name="maximumSizeMtr" data-testid="select-sort">
-        <option value="asc">0 - 15</option>
-        <option value="desc">15 - 0</option>
+        <option value="asc">0 - 15</option> 
+        <option value="desc">15 - 0</option> 
       </select>
       <!-- boton para limpiar filtros -->
       <button id="clearFilter" data-testid="button-clear">Limpiar filtros</button>
     </section>
      <section class="longevity">
-      <button id="longevityProm">Calcular longevidad promedio</button>
-      <input type="text" id="result">
+      <p id="longevityText">Longevidad promedio:</p>
+      <button id="longevityProm">Calcular</button>
     </section>
     <div id="root"></div>
   </main>

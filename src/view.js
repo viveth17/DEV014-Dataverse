@@ -9,7 +9,7 @@ export const renderItems = (data) => {
     liElement.setAttribute("itemscope", "");
     liElement.innerHTML = `
     <dl>
-    <img src=${item.imageUrl} alt="Ada Lovelace" />
+    <img src=${item.imageUrl} alt="tiburones" />
     <div>
     <h3 itemprop="name">${item.name}</h3>
     <h4 itemprop="nombre de la especie">${item.nombreDeLaEspecie}</h4>
