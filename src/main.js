@@ -42,12 +42,14 @@ buttonClear.addEventListener("click", () => {
   statusData = data;
   htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(statusData));
   document.querySelector('#locationOfTheSpecie').value = 'Todas';
+  document.querySelector('#longevityText').innerHTML = 'Longevidad promedio:';
 })
 
 const longevityAverage = document.querySelector('#longevityProm');
 const longevityText = document.querySelector('#longevityText');
 longevityAverage.addEventListener("click", () => {
   longevityText.innerHTML = 'Longevidad promedio: ' + computeStats(statusData) + ' años';
+
 })
 
 renderItems(data);
