@@ -15,6 +15,17 @@
 
 ![](https://i.ibb.co/q0NPGsw/promp.jpg)
 
+
+
+
+
+
+
+
+
+
+
+
 ## **Historias de Usuario:**
 
 1. **Visualización de las imágenes de las 24 especies de tiburones** 👀
@@ -57,7 +68,9 @@
 
 El diseño de la interfaz de usuarias se realizó siguiendo un prototipo de alta fidelidad:
 
+
 ![](https://i.ibb.co/MN6Zj6F/Prototipo-Desktop-calculo-data.jpg)
+
 
 ## **El listado de problemas que detectaste a través de tests de usabilidad**
 
