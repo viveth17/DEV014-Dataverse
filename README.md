@@ -13,17 +13,8 @@
 
 ## **Prompting utilizado para generar la Data** 🤖
 
-![](https://i.ibb.co/q0NPGsw/promp.jpg)
-
-
-
-
-
-
-
-
-
-
+![](https://i.ibb.co/x26zVn1/promp-1.jpg)
+![](https://i.ibb.co/D71fhZZ/promp-2.jpg)
 
 
 ## **Historias de Usuario:**
