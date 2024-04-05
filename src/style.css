@@ -123,53 +123,70 @@ body {
 }
 
 section {
+    background: #F5EEDC;
     padding: 1rem 0;
-    display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 4%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 label {
     font-family: 'Inter', sans-serif;
     color: black;
-    font-size: medium;
+    font-size: small;
     font-weight: 700;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 3px;
+    margin-left: 1px;
 }
 
 select {
-    padding: 5px;
+    padding: 0px;
     display: inline-flex;
     gap: 500px;
-    text-align: left;
+    text-align: justify;
     background-color: rgb(250, 249, 249);
     border-radius: 5px;
-    font-size: medium;
+    font-size: x-small;
     font-family: sans-serif;
+}
+
+.numberMts {
+    display: none;
 }
 
 #clearFilter {
     padding: 5px;
     border-radius: 5px;
-    font-size: medium;
+    font-size: 8px;
     font-family: sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
     margin-left: auto;
-    margin-right: 15px;
+    margin-right: 52px;
+    cursor: pointer;
 }
 
 #longevityText {
     color: black;
     font-family: 'Inter', sans-serif;
-    font-size: MEDIUM;
+    font-size: x-small;
     font-weight: 700;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-left: 2px;
+}
+
+#longevityProm {
+    padding: 5px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    cursor: pointer;
+    font-size: 8px;
 }
 
 @media (min-width : 900px) {
@@ -252,13 +269,59 @@ select {
         color: #fff;
         background-color: #007bff;
         border-color: #007bff;
+        cursor: pointer;
     }
 
     #longevityText {
+        font-family: 'Inter', sans-serif;
         color: black;
-        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
         font-weight: 700;
         margin-right: 15px;
         margin-left: 15px;
+    }
+
+    /* mediaqueries */
+    section {
+        background: #F5EEDC;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 4%;
+    }
+
+    label {
+        font-family: 'Inter', sans-serif;
+        color: black;
+        font-size: medium;
+        font-weight: 700;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    select {
+        padding: 5px;
+        display: inline-flex;
+        gap: 500px;
+        text-align: left;
+        background-color: rgb(250, 249, 249);
+        border-radius: 5px;
+        font-size: medium;
+        font-family: sans-serif;
+    }
+
+    #clearFilter {
+        padding: 5px;
+        border-radius: 5px;
+        font-size: medium;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+        margin-left: auto;
+        margin-right: 15px;
+        cursor: pointer;
     }
 }

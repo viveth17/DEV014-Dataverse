@@ -14,6 +14,7 @@ export const renderItems = (data) => {
     <h3 itemprop="name">${item.name}</h3>
     <h4 itemprop="nombre de la especie">${item.nombreDeLaEspecie}</h4>
     <p itemprop="shortDescription">${item.shortDescription}</p>
+    <p itemprop="maximumSizeMtr" class="numberMts">${item.maximumSizeMtr}</p>
     </div>
     </dl>
   `
