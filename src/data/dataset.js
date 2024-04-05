@@ -1,5 +1,4 @@
 export default [
-    //1.
     {
       "id": "megachasma_pelagios",
       "name": "Tiburón Megamouth",
@@ -15,7 +14,6 @@ export default [
       "nutrition": "Plancton, pequeños peces",
       "maximumSizeMtr": 6
     },
-    //2.
     {
       "id": "rhincodon_typus",
       "name": "Tiburón Ballena",
@@ -31,7 +29,6 @@ export default [
       "nutrition": "Plancton",
       "maximumSizeMtr": 14
     },
-    //3.
     {
       "id": "alopias_vulpinus",
       "name": "Tiburón Zorro",
@@ -47,7 +44,6 @@ export default [
       "nutrition": "Peces óseos, calamares",
       "maximumSizeMtr": 3.5
     },
-    //4.
     {
       "id": "sphyrna_lewini",
       "name": "Tiburón Martillo",
@@ -63,7 +59,6 @@ export default [
       "nutrition": "Peces pequeños, calamares, crustáceos",
       "maximumSizeMtr": 4
     },
-    //5.
     {
       "id": "chlamydoselachus_anguineus",
       "name": "Quimera",
@@ -79,7 +74,6 @@ export default [
       "nutrition": "Peces, cangrejos, moluscos",
       "maximumSizeMtr": 1.5
     },
-    //6.
     {
       "id": "lamna_nasus",
       "name": "Tiburón porbeagle",
@@ -95,7 +89,6 @@ export default [
       "nutrition": "Carnívoro. Se alimenta principalmente de peces pequeños, calamares y crustáceos.",
       "maximumSizeMtr": 3.5
     },
-    //7.
     {
       "id": "prionace_glauca",
       "name": "Tiburón azul",
@@ -111,7 +104,6 @@ export default [
       "nutrition": "Carnívoro. Se alimenta de peces, calamares, crustáceos y ocasionalmente carroña.",
       "maximumSizeMtr": 3.8
     },
-    //8.
     {
       "id": "carcharhinus_falciformis",
       "name": "Tiburón sedoso",
@@ -127,7 +119,6 @@ export default [
       "nutrition": "Carnívoro. Se alimenta de peces, cefalópodos, crustáceos y ocasionalmente tortugas marinas.",
       "maximumSizeMtr": 2.5
     },
-    //9.
     {
       "id": "sphyrna_tiburo",
       "name": "Tiburón martillo común",
@@ -143,7 +134,6 @@ export default [
       "nutrition": "Carnívoro. Se alimenta principalmente de peces, pulpos, cangrejos y rayas.",
       "maximumSizeMtr": 3
     },
-    //10.
     {
       "id": "triakis_semifasciata",
       "name": "Tiburón leopardo",
@@ -159,7 +149,6 @@ export default [
       "nutrition": "Carnívoro. Se alimenta de peces óseos, cefalópodos, crustáceos y a veces carroña.",
       "maximumSizeMtr": 1.8
     },
-    //11.
     {
       "id": "isistius_brasiliensis",
       "name": "Tiburón linterna",
@@ -175,7 +164,6 @@ export default [
       "nutrition": "Se alimenta principalmente de peces de aguas profundas y calamares.",
       "maximumSizeMtr": 0.5
     },
-    //12.
     {
       "id": "etmopterus_spinax",
       "name": "Tiburón linterna negro",
@@ -191,7 +179,6 @@ export default [
       "nutrition": "Se alimenta principalmente de peces, calamares y crustáceos.",
       "maximumSizeMtr": 0.60
     },
-    //13. 
     {
       "id": "heterodontus_francisci",
       "name": "Tiburón duende",
@@ -207,7 +194,6 @@ export default [
       "nutrition": "Se alimenta principalmente de crustáceos, moluscos y pequeños peces.",
       "maximumSizeMtr": 1
     },
-    //14.
     {
       "id": "sphyrna_mokarran",
       "name": "Tiburón martillo gigante",
@@ -223,7 +209,6 @@ export default [
       "nutrition": "Se alimenta principalmente de peces óseos, rayas y calamares.",
       "maximumSizeMtr": 6
     },
-    //15.
     {
       "id": "carcharhinus_leucas",
       "name": "Tiburón toro",
@@ -239,7 +224,6 @@ export default [
       "nutrition": "Se alimenta principalmente de peces, crustáceos, tortugas marinas y aves marinas.",
       "maximumSizeMtr": 3.5
     },
-    //16.
     {
       "id": "sphyrna_tudes",
       "name": "Tiburón martillo común",
@@ -255,7 +239,6 @@ export default [
       "nutrition": "Principalmente peces óseos y calamares.",
       "maximumSizeMtr": 4
     },
-    //17.
     {
       "id": "euprotomicroides_zantedeschia",
       "name": "Tiburón linterna del Pacífico",
@@ -271,7 +254,6 @@ export default [
       "nutrition": "Peces, crustáceos y cefalópodos.",
       "maximumSizeMtr": 1.5
     },
-    //18.
     {
       "id": "rhizoprionodon_terraenovae",
       "name": "Tiburón de arrecife de arena",
@@ -287,7 +269,6 @@ export default [
       "nutrition": "Peces pequeños, crustáceos y cefalópodos.",
       "maximumSizeMtr": 1
     },
-    //19.
     {
       "id": "carcharodon_carcharias",
       "name": "Gran tiburón blanco",
@@ -303,7 +284,6 @@ export default [
       "nutrition": "Peces, focas y otros tiburones.",
       "maximumSizeMtr": 6
     },
-    //20.
     {
       "id": "sphyrna_spp",
       "name": "Tiburón martillo",
@@ -319,7 +299,6 @@ export default [
       "nutrition": "Peces óseos, calamares y crustáceos.",
       "maximumSizeMtr": 6
     },
-    //21.
     {
       "id": "isurus_oxyrinchus",
       "name": "Tiburón mako",
@@ -335,8 +314,6 @@ export default [
       "nutrition": "Peces, calamares y otros tiburones.",
       "maximumSizeMtr": 3
     },
-    //22.
-
     {
       "id": "alopias_pelagicus",
       "name": "Tiburón zorro",
@@ -352,8 +329,6 @@ export default [
       "nutrition": "Peces pequeños, calamares y crustáceos.",
       "maximumSizeMtr": 3
     },
-    //23.
-
     {
       "id": "chiloscyllium_punctatum",
       "name": "Tiburón bambú",
@@ -369,8 +344,6 @@ export default [
       "nutrition": "Crustáceos, peces pequeños y moluscos.",
       "maximumSizeMtr": 1
     },
-    //24.
-
     {
       "id": "galeocerdo_cuvier",
       "name": "Tiburón tigre",

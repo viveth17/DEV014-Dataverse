@@ -1,6 +1,4 @@
 export const renderItems = (data) => {
-  // console.log(data)
-  // Aquí comienza tu código y puedes retornar lo que tu necesites
   const ulElement = document.createElement('ul');
   data.forEach(item => {
     const liElement = document.createElement('li');
@@ -19,11 +17,7 @@ export const renderItems = (data) => {
     </dl>
   `
 
-
-    // liElement.innerHTML = item.name;
-    // console.log(liElement);
     ulElement.appendChild(liElement);
-    // console.log(ulElement);
 
 
   });

@@ -2,7 +2,7 @@ import { computeStats, filterData } from '../src/dataFunctions.js';
 import { sortBySharkSize } from '../src/dataFunctions.js';
 import { data } from './data.js';
 
-// Test de la función del filtro
+
 describe('filterData', () => {
   it('should filter data by a specific value', () => {
     const filterBy = 'name';
@@ -26,7 +26,7 @@ describe('filterData', () => {
   });
 });
 
-//Test de la función ordenar
+
 describe('sortBySharkSize', () => {
   test('Ordena los datos por tamaño de tiburón de forma ascendente', () => {
     const data = [
@@ -67,7 +67,7 @@ describe('sortBySharkSize', () => {
       { name: 'Tiburón Ballena', maximumSizeMtr: 14 },
       { name: 'Tiburón Zorro', maximumSizeMtr: 3.5 },
     ];
-    const sortBy = null; // No se especifica un campo de ordenación
+    const sortBy = null; 
     const sortOrder = 'asc';
 
     const sortedData = sortBySharkSize(data, sortBy, sortOrder);
@@ -90,14 +90,14 @@ describe('sortBySharkSize', () => {
 
     const sortedData = sortBySharkSize(data, sortBy, sortOrder);
 
-    // Esperamos que los dos tiburones con el mismo tamaño permanezcan en el mismo orden
+   
     expect(sortedData).toEqual([
       { name: 'Tiburón Megamouth', maximumSizeMtr: 6 },
       { name: 'Tiburón Ballena', maximumSizeMtr: 14 },
       { name: 'Tiburón Zorro', maximumSizeMtr: 14 },
     ]);
   });
-  // test de la funcion computeStats
+ 
   describe('computeStats', () => {
     test('Calcula el promedio de la longevidad aproximada', () => {
       const data = [

@@ -14,7 +14,6 @@
     <h2>Sumérgete en el mundo de los tiburones</h2>
   </header>
   <main>
-    <!-- filtrar data -->
     <section>
       <label for="locationOfTheSpecie"> Hábitat:</label>
       <select id="locationOfTheSpecie" name="locationOfTheSpecie" data-testid="select-filter">
@@ -25,21 +24,15 @@
         <option value="Océano Pacífico">Océano Pacífico</option>
         <option value="Océanos en todo el mundo">Océanos en todo el mundo</option>
       </select>
-      <!-- ordenar data  -->
       <label for="maximumSizeMtr">Tamaño:</label>
       <select id="maximumSizeMtr" name="maximumSizeMtr" data-testid="select-sort">
         <option value="asc">0 - 15</option> 
         <option value="desc">15 - 0</option> 
       </select>
-      <!-- boton para limpiar filtros -->
       <p id="longevityText">Longevidad promedio:</p>
       <button id="longevityProm">Calcular</button>
       <button id="clearFilter" data-testid="button-clear">Limpiar filtros</button>
     </section>
-     <!-- <section class="longevity">
-      <p id="longevityText">Longevidad promedio:</p>
-      <button id="longevityProm">Calcular</button>
-    </section> -->
     <div id="root"></div>
   </main>
   <footer>
@@ -48,5 +41,4 @@
   </footer>
   <script src="main.js" type="module"></script>
 </body>
-
 </html>
