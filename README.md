@@ -1,4 +1,4 @@
-# **Sumérgete en el mundo de los tiburones**
+![](https://i.ibb.co/VxJVCtk/Screen-Shot-2024-04-05-at-12-05-02.png)
 
 ## Definición de Producto:
 
