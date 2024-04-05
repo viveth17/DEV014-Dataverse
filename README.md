@@ -19,7 +19,7 @@
 
 ## **Historias de Usuario:**
 
-1. **Visualización de las imágenes de las 24 especies de tiburones** 👀
+<h5 style="background-color: #57AEC0; padding: 10px;">1-Visualización de las imágenes de las 24 especies de tiburones 👀</h5> 
    - **Como** estudiante y/o aficionado del mundo de los tiburones.
    - **Quiero** poder ver una lista de los tiburones más conocidos del mundo.
    - **Para** ampliar mis conocimientos sobre las especies de tiburones, para investigar como parte de un proyecto escolar.
@@ -30,7 +30,7 @@
    - Cada tarjeta debe proporcionar el nombre común y científico del tiburón.
    - Se debe incluir una breve descripción de cada especie que destaque sus características distintivas, como tamaño, hábitat y comportamiento.
 
-2. **Filtrado y ordenado por hábitat y tamaño de tiburones** 🔎
+<h5 style="background-color: #57AEC0; padding: 10px;">2-Filtrado y ordenado por hábitat y tamaño de tiburones 🔎 </h5> 
    - **Como** estudiante y/o aficionado del mundo de los tiburones.
    - **Quiero** poder filtrar por hábitat y además ordenar por tamaño de forma ascendente y descendente, además poder limpiar los filtro que aplique.
    - **Para** observar las diferencias de hábitat y tamaños entre cada especie.
@@ -43,7 +43,7 @@
    - Se deben proporcionar opciones claras para deshacer los filtros y restablecer la lista a su estado original si es necesario.
    - Se debe realizar pruebas exhaustivas de la funcionalidad de filtrado y ordenamiento para garantizar su correcto funcionamiento en diferentes situaciones y escenarios de uso.
 
-3. **Calculo de Longevidad Promedio de los Tiburones** 🧮
+<h5 style="background-color: #57AEC0; padding: 10px;">3-Calculo de Longevidad Promedio de los Tiburones 🧮 </h5> 
    - **Como** estudiante y/o aficionado del mundo de los tiburones.
    - **Quiero** poder calcular al accionar un botón y ver el promedio de la longevidad de los tiburones.
    - **Para** observar el promedio de la longevidad de todos los tiburones así como al filtrar por hábitat.
