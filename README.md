@@ -13,7 +13,7 @@
 
 ## **Prompting utilizado para generar la Data** 🤖
 
-[Prompting utilizado para generar la Data](https://lens.google.com/search?ep=gisbubb&hl=es-CL&re=df&p=AbrfA8qTnouRwNQTY42X6yh3xJzU8rG9jBLxNjIRP1Pt-Z1PFJZr6d1LOV3HtXVL0kRfohYYXKUlKTz8PKsUGdouoUbBoHL_YWesIVPTMxbhqrLF1OTW3OdYudpTYpNmdy1BUgGzsC8BMmKCSTNe8AXvmm5e3uSQTuYvE9qk9ywMQ9UjOFaoF42MXFAYN2wpzUdTaAoenZgbsLx7_oawi50RTqWqmv1_2SwzTIHY8P1HIqlLqOoAhfYMUPcvBsLzRjIIrcX4gt3VIHYcbb92#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRE5pWVRnNE9UVXhMVGcyT1dFdE5HUTJZaTFpWkRBMUxUWmtNR1ppT0RVMU1UUTBOQklmTURFMlVuY3pRV1ZaU210VmMwZEZNRGhCY0VaUVRsOXlaRzU2ZWpab1p3PT0iXQ==)
+![](https://i.ibb.co/q0NPGsw/promp.jpg)
 
 ## **Historias de Usuario:**
 
@@ -57,7 +57,7 @@
 
 El diseño de la interfaz de usuarias se realizó siguiendo un prototipo de alta fidelidad:
 
-[Prototipo de alta fidelidad](https://lens.google.com/search?ep=gisbubb&hl=es-CL&re=df&p=AbrfA8rMZ8UPTpGewh1dV8AFL--mGB5og6xWleZII4ZDXKjR8PgWCG7BoHiEQDav0Fme33QpCWh5CiVRp_7PRuucMJMM1kU4jDXzYnN-wRwSpRCJetxR04wMrk8hksO8EC8NgdBsRXIsztB5YL_SzrgMdp2XSEnvhzITgJH47mwKzOjbuoRVNr5Uea-CUwTrmbwRoPIrDzHESqJQn3985CRZBRXD7GkTlZf4HDIrbU60s1pgVCiSxRUjTtczt2A9T84NqFSxrka56abF309n#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRGszTW1KbFpqRTNMVEEzTmprdE5HRXlPQzA1Wm1VNUxXVTJPVEEwTURsak5UUTRZUklmVlRCdVRtTkRUVkZHT0RSVmMwZEZNRGhCY0VaUVRsOWlVbkJxZWpab1p3PT0iLG51bGwsbnVsbCxudWxsLDEsbnVsbCxbbnVsbCxudWxsLFswLDAsMTAwMDAwLDEwMDAwMF1dXQ==)
+![](https://i.ibb.co/MN6Zj6F/Prototipo-Desktop-calculo-data.jpg)
 
 ## **El listado de problemas que detectaste a través de tests de usabilidad**
 
