@@ -19,7 +19,10 @@
 
 ## **Historias de Usuario:**
 
-<h5 style="background-color: #57AEC0; padding: 10px;">1-Visualización de las imágenes de las 24 especies de tiburones 👀</h5> 
+<div style="background-color: #57AEC0; color: white; padding: 10px; border-radius: 2px;">
+  <h5>1-Visualización de las imágenes de las 24 especies de tiburones 👀</h5>
+</div>
+
    - **Como** estudiante y/o aficionado del mundo de los tiburones.
    - **Quiero** poder ver una lista de los tiburones más conocidos del mundo.
    - **Para** ampliar mis conocimientos sobre las especies de tiburones, para investigar como parte de un proyecto escolar.
