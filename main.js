@@ -42,6 +42,8 @@ buttonClear.addEventListener("click", () => {
   statusData = data;
   htmlElement.getElementsByTagName('body')[0].getElementsByTagName('div')[0].replaceChildren(renderItems(statusData));
   document.querySelector('#locationOfTheSpecie').value = 'Todas';
+  const maximumSizeSelect =document.querySelector('#maximumSizeMtr');
+  maximumSizeSelect.value = 'Sin orden';
   document.querySelector('#longevityText').innerHTML = 'Longevidad promedio:';
 })
 
